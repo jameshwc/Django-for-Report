@@ -1,0 +1,17 @@
+{% include "Header.html" %}
+<table id="update_log">
+<br><br><br>
+<tr>
+    <th> Date </th>
+    <th>Update Content</th>
+    <th>Type</th>
+</tr>
+{% for u in log reversed %}
+<tr>
+    <td>{{ u.date }}</td>
+    <td>{{ u.detail }} </td>
+    {% if u.is_content %} <td> Content </td> {% elif u.is_debug %} <td> Debug </td> {% else %}<td> System </td> {% endif %}
+</tr>
+{% endfor %}
+{% comment %} <br><br><br><br> {% endcomment %}
+{% include "footer.html" %}
