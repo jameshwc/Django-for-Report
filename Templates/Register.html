@@ -1,0 +1,13 @@
+{% include "Header.html" %}
+{% if Error %}
+<p>{{form.errors}} </p>
+{% elif is_sent %}
+<p> Please check the verification letter sent to your e-mail! </p>
+{% else %}
+<form name = "register_form" method="post">
+{% csrf_token %}
+{{ form.as_p }}
+<button type="submit">註冊 </button>
+</form>
+{% endif %}
+{% include "Footer.html" %}

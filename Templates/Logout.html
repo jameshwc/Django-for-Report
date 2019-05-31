@@ -1,0 +1,9 @@
+{% include "Header.html" %}
+{% if logout %}
+<p> Log out successfully! </p>
+{% else %}
+<p> You are not even logged in! What's wrong? </p>
+{% endif %}
+<p> Redirecting to Homepage for 3 seconds...</p>
+<meta http-equiv="refresh" content="3;url=http://{{ request.META.HTTP_HOST }}" />
+{% include "Footer.html" %}

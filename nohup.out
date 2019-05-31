@@ -1,0 +1,120 @@
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/student/07/b07902001/.local/lib/python3.7/site-packages/django/template/defaulttags.py:63: UserWarning: A {% csrf_token %} was used in a template, but the context did not provide the value.  This is usually caused by not using RequestContext.
+  "A {% csrf_token %} was used in a template, but the context "
+[29/May/2019 17:03:52] "GET /register/ HTTP/1.1" 200 1067
+[29/May/2019 17:03:52] "GET /static/css/menu.css HTTP/1.1" 304 0
+[29/May/2019 17:03:52] "GET /static/images/grey.png HTTP/1.1" 304 0
+[29/May/2019 17:03:56] "GET / HTTP/1.1" 200 1275
+[29/May/2019 17:05:02] "GET / HTTP/1.1" 200 1275
+[29/May/2019 17:05:02] "GET /static/images/grey.png HTTP/1.1" 200 50568
+Invalid HTTP_HOST header: '127.0.0.1:80'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /
+[29/May/2019 17:08:04] "POST / HTTP/1.1" 400 60076
+Invalid HTTP_HOST header: '127.0.0.1:80'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /
+[29/May/2019 18:26:44] "POST / HTTP/1.1" 400 60076
+Invalid HTTP_HOST header: '127.0.0.1:80'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /
+[29/May/2019 19:12:39] "POST / HTTP/1.1" 400 60076
+Invalid HTTP_HOST header: '127.0.0.1:80'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /
+[29/May/2019 20:54:33] "POST / HTTP/1.1" 400 60076
+Invalid HTTP_HOST header: '127.0.0.1:80'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /
+[29/May/2019 21:45:29] "POST / HTTP/1.1" 400 60076
+Invalid HTTP_HOST header: '127.0.0.1:80'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /
+[29/May/2019 23:38:53] "POST / HTTP/1.1" 400 60076
+Invalid HTTP_HOST header: '127.0.0.1:80'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /
+[30/May/2019 00:31:03] "POST / HTTP/1.1" 400 60076
+Invalid HTTP_HOST header: '127.0.0.1:80'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /
+[30/May/2019 01:36:22] "POST / HTTP/1.1" 400 60076
+Not Found: /robots.txt
+[30/May/2019 01:55:28] "GET /robots.txt HTTP/1.1" 404 2576
+[30/May/2019 01:55:28] "GET / HTTP/1.1" 200 1275
+[30/May/2019 01:55:28] "GET /static/css/menu.css HTTP/1.1" 200 2986
+[30/May/2019 01:55:28] "GET /static/images/grey.png HTTP/1.1" 200 50568
+Not Found: /favicon.ico
+[30/May/2019 01:55:29] "GET /favicon.ico HTTP/1.1" 404 2579
+/nfs/undergrad/07/b07902001/Django/Report/Download/__init__.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 29, 2019 - 17:03:42
+Django version 2.2, using settings 'Report.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[30/May/2019 02:05:02] "GET / HTTP/1.1" 200 1275
+[30/May/2019 02:05:02] "GET /static/css/menu.css HTTP/1.1" 200 2986
+/home/student/07/b07902001/.local/lib/python3.7/site-packages/django/template/defaulttags.py:63: UserWarning: A {% csrf_token %} was used in a template, but the context did not provide the value.  This is usually caused by not using RequestContext.
+  "A {% csrf_token %} was used in a template, but the context "
+[30/May/2019 02:05:04] "GET /register/ HTTP/1.1" 200 1501
+[30/May/2019 02:05:04] "GET /static/css/menu.css HTTP/1.1" 200 2986
+Internal Server Error: /register/
+Traceback (most recent call last):
+  File "/home/student/07/b07902001/.local/lib/python3.7/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/student/07/b07902001/.local/lib/python3.7/site-packages/django/db/backends/sqlite3/base.py", line 383, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: User_user.register_time
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/student/07/b07902001/.local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/student/07/b07902001/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/student/07/b07902001/.local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/student/07/b07902001/.local/lib/python3.7/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/nfs/undergrad/07/b07902001/Django/Report/User/views.py", line 39, in Register
+    def Register(request):
+  File "/home/student/07/b07902001/.local/lib/python3.7/site-packages/django/db/models/base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/student/07/b07902001/.local/lib/python3.7/site-packages/django/db/models/base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "/home/student/07/b07902001/.local/lib/python3.7/site-packages/django/db/models/base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/home/student/07/b07902001/.local/lib/python3.7/site-packages/django/db/models/base.py", line 908, in _do_insert
+    using=using, raw=raw)
+  File "/home/student/07/b07902001/.local/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/student/07/b07902001/.local/lib/python3.7/site-packages/django/db/models/query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/student/07/b07902001/.local/lib/python3.7/site-packages/django/db/models/sql/compiler.py", line 1332, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/student/07/b07902001/.local/lib/python3.7/site-packages/django/db/backends/utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "/home/student/07/b07902001/.local/lib/python3.7/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/home/student/07/b07902001/.local/lib/python3.7/site-packages/django/db/backends/utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/student/07/b07902001/.local/lib/python3.7/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/student/07/b07902001/.local/lib/python3.7/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/student/07/b07902001/.local/lib/python3.7/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/student/07/b07902001/.local/lib/python3.7/site-packages/django/db/backends/sqlite3/base.py", line 383, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: User_user.register_time
+[30/May/2019 02:05:12] "POST /register/ HTTP/1.1" 500 151660
+[30/May/2019 02:05:21] "GET /register/ HTTP/1.1" 200 1501
+/nfs/undergrad/07/b07902001/Django/Report/User/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 2 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): User.
+Run 'python manage.py migrate' to apply them.
+May 30, 2019 - 02:04:48
+Django version 2.2, using settings 'Report.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader

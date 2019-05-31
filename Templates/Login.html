@@ -1,0 +1,18 @@
+{% include "Header.html" %}
+{% if Fail %}
+{% url 'Login_url_name' as login %}
+<p> Login failed! Please check your account name and password again!</p>
+<p> Redirecting to login page for 3 seconds...</p>
+<meta http-equiv="refresh" content="3;url={{login}}" />
+{% elif request.session.username %}
+<p> Login Successfully! You are logged in as {{request.session.username}} </p>
+<p> Redirecting to Homepage for 3 seconds...</p>
+<meta http-equiv="refresh" content="3;url=http://{{ request.META.HTTP_HOST }}" />
+{% else %}
+<form method='POST'>
+{% csrf_token %}
+{{form.as_p}}
+<input type='submit' value='送出'>
+</form>
+{% endif %}
+{% include "Footer.html" %}

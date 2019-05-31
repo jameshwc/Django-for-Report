@@ -1,0 +1,41 @@
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/student/07/b07902001/.local/lib/python3.7/site-packages/django/template/defaulttags.py:63: UserWarning: A {% csrf_token %} was used in a template, but the context did not provide the value.  This is usually caused by not using RequestContext.
+  "A {% csrf_token %} was used in a template, but the context "
+[29/May/2019 17:03:52] "GET /register/ HTTP/1.1" 200 1067
+[29/May/2019 17:03:52] "GET /static/css/menu.css HTTP/1.1" 304 0
+[29/May/2019 17:03:52] "GET /static/images/grey.png HTTP/1.1" 304 0
+[29/May/2019 17:03:56] "GET / HTTP/1.1" 200 1275
+[29/May/2019 17:05:02] "GET / HTTP/1.1" 200 1275
+[29/May/2019 17:05:02] "GET /static/images/grey.png HTTP/1.1" 200 50568
+Invalid HTTP_HOST header: '127.0.0.1:80'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /
+[29/May/2019 17:08:04] "POST / HTTP/1.1" 400 60076
+Invalid HTTP_HOST header: '127.0.0.1:80'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /
+[29/May/2019 18:26:44] "POST / HTTP/1.1" 400 60076
+Invalid HTTP_HOST header: '127.0.0.1:80'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /
+[29/May/2019 19:12:39] "POST / HTTP/1.1" 400 60076
+Invalid HTTP_HOST header: '127.0.0.1:80'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /
+[29/May/2019 20:54:33] "POST / HTTP/1.1" 400 60076
+Invalid HTTP_HOST header: '127.0.0.1:80'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /
+[29/May/2019 21:45:29] "POST / HTTP/1.1" 400 60076
+Invalid HTTP_HOST header: '127.0.0.1:80'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /
+[29/May/2019 23:38:53] "POST / HTTP/1.1" 400 60076
+Invalid HTTP_HOST header: '127.0.0.1:80'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /
+[30/May/2019 00:31:03] "POST / HTTP/1.1" 400 60076
+Invalid HTTP_HOST header: '127.0.0.1:80'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /
+[30/May/2019 01:36:22] "POST / HTTP/1.1" 400 60076
+Not Found: /robots.txt
+[30/May/2019 01:55:28] "GET /robots.txt HTTP/1.1" 404 2576
+[30/May/2019 01:55:28] "GET / HTTP/1.1" 200 1275
+[30/May/2019 01:55:28] "GET /static/css/menu.css HTTP/1.1" 200 2986
+[30/May/2019 01:55:28] "GET /static/images/grey.png HTTP/1.1" 200 50568
+Not Found: /favicon.ico
+[30/May/2019 01:55:29] "GET /favicon.ico HTTP/1.1" 404 2579

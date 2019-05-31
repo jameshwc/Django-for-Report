@@ -1,0 +1,494 @@
+2019-05-30 10:03:23: -- Analysis Started by User Command
+2019-05-30 10:03:23: L: State file does not exist: D:/ProgrammingLanguagePractice/Django/Report/_gsdata_/_file_state_v4._gs
+2019-05-30 10:03:23: R: State file does not exist: sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/_gsdata_/_file_state_v4._gs
+2019-05-30 10:03:28: /.git/COMMIT_EDITMSG: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/config: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/description: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/HEAD: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/hooks/applypatch-msg.sample: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/hooks/commit-msg.sample: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/hooks/fsmonitor-watchman.sample: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/hooks/post-update.sample: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/hooks/pre-applypatch.sample: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/hooks/pre-commit.sample: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/hooks/pre-push.sample: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/hooks/pre-rebase.sample: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/hooks/pre-receive.sample: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/hooks/prepare-commit-msg.sample: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/hooks/update.sample: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/index: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/info/exclude: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/logs/HEAD: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/logs/refs/heads/master: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/01/40c922966a6c1ce21280d0c7accda9a99ba02b: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/02/8c32d7dc4dc50eeed5fe02766112f64feec600: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/02/db75feecca51d4b9a9a7085a6232fc8f00edbf: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/04/a9cbc0d4f1041da0d2f8fe0f968dbcdde79feb: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/06/d64da4cb217106325cee86c59801e32f07122c: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/07/e6f3ab05bad67006bb8240757e204a8a6a064e: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/09/e265c54e22edacade3a354da16914f3429f9f6: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/0b/a793f9a919f3681aff7834c9caf6ef42afe72f: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/0f/d7fbf14aca68eed929f8f23a70a256e46a8525: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/10/66d084012b15534ec474d765731527af13694d: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/14/cacf01089d38b61e94b10665624368b00593e8: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/17/43d1998ee4ec183a0b025cd0d7453e6fab7475: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/17/e13d8053e4755c8ff7e8f1ca8c2deb30c528ca: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/19/33f1ead8ace5568c33bb05d4f039d110d9c1e0: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/1a/92db800f75780dbb485d0d078b30bddc06e638: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/1a/a673960069f3865b63f73460532e15fe32e4ca: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/1a/f4306768259ca9b2b2306ce5450cb0d33d9a54: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/1f/b213ef54f508a14efd26f0d8931aa18fbdcb18: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/20/568765777f6a3c69f3831614e6296b3eca0ce2: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/22/fef2b97fb4709726c71bedbde5ae905ad1fc74: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/26/39846cb02ade1b63d1bf076ff122685fb20de7: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/26/d56e939f8c1717af69385168706703b37fc159: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/2e/533566c7cbfdd9223a5c59b797042bd5afe715: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/33/2a13ff29324dd46c24768dbdcbd48d470d4457: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/33/9218aa98c2e467b1c9ea8cb290cda1ad90b8bd: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/3b/37c919ed39e47dac76c27dd29e3142043ad910: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/3b/e5e3135651df43393c4da7c334570570d199d7: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/3d/219391bc6053c73f56ff7fbc1d786bf31f07db: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/45/4a54560b44b1b23625fa6e02c58a143e684618: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/46/5c891c339831f67556296e5f0e34ffb8ac01c8: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/47/57e96fe7447bf92a98b30e6d4b5e381c38420b: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/48/143d8f97a1cb0f7aa6a63d67ef871d233a1f80: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/4a/63120976fd18bfd7f401ba913932c505ca7e9a: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/4b/86e85598e58020a240b515a7a51247f3aea180: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/4c/2f0f4c874665336c3589dc77d9c4243230eacf: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/4f/8bb5620f43b51f4ea1f80fca69b21073341a46: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/52/894eeaed253bf308e20521f7d91ad61717df2b: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/58/6e23665396b486d1bc56ee32ad1a485c8738ef: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/59/44121a3c8abdc583237ff2a4b9cdb809d91ee8: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/59/b73bd42a7aaea3a5128cff823815b932ba8ce0: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/5c/291ee2054ea5b325f89e45a83dd13c7ae4b4a9: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/5e/6246c546e0e67e9de33df7c9a5f3bee04a8ad9: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/60/e28abb5c2c5c9a147f132d7282e1c520a8c162: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/61/7c98e43024a0ddbba7f8d6e7f5064d043730ce: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/67/067004918c2dbb4a25f64f5cf971abad2aa880: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/69/f3de47937cdc31783eb3d98ff3839e5e31ddc7: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/6c/1c5e0ab935bebdba24418c15f76ec8a4a01fce: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/6c/82c70fd26dc0bb05e638aeaca4ac28511ece99: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/76/b20f079371fcea694978ec4a0fd0c1e1e3ad03: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/77/066b6d29102a11b4adf19fca7eb6f8c2d7c218: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/7b/5c4a95723639b1b7c19fa1064b74bd56d5ebe4: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/7c/f36890c74f67d59316d13e6d411347ede72546: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/82/14eb8ca39ab52e24563eeb972c47c7f0d545cd: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/82/76f26d94718dce88a4ab12be22f603980d90fb: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/86/2b8428b9e068428b1a4e8a38f94019008d8940: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/8a/ca8bb584fc0f64b950c683ac46bf012c09f3de: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/8b/4fa81abf5e475c2058236169334e2a1212d2ce: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/8c/9bf8e38724695d052d949705d2d3fa2d598e44: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/8f/a507f68ebd49ea0ec6aeef0d4657abe949d765: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/91/d55378c5281e247270e9a3b31de0df878655c8: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/93/aff72e1f30d59d114ada4388488fe8d663df4f: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/93/b32430b5dc8ff6a3b804ec29308a8b60c0b609: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/97/3495505d5203141626330facd0469c7f96016a: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/98/330256c8b6cfd21c77b8a7765dd3315c0e13d1: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/9a/61bc703e7142ed230178ebb5d451a897339601: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/9a/e23933acef9df606dffd822cf367e0eb06e7b3: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/9c/233b688a4479e971ceac6c14029418f67b73e1: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/9d/7068f6db92bf199b557aeb0712aa053f5606d7: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/9e/819295156f02e94e8f10fd53a55ad85082497c: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/a2/1f0fadea18d4dfc789602dcd7116abb43558bc: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/a3/4be30d0a478a1e0da27f1598f60f15fd92e979: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/a3/93fda7bdd27df8ebcdfbe93d4c3fb89a9ac917: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/a3/9afdbe6f2798d2f08a7798d2fd765bbb2a42fe: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/a5/0c32a03ecd563c431b79dbef992e55d5b80850: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/a6/29acd3a0ae4df09c240c9beb2833ade0cf12b5: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/b1/28ec6b3cb28a0706b9e4003ad4ae6835f1f501: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/b7/9c372a7b6adb9e55dd5a8a43c792df8c9ec17c: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/c1/8a1d5da4b75534efb9e1c18ed1fc6fd851a3ab: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/c3/5b7ee13d3cc749ca9475f8a80aed0d5045d2cb: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/c4/c74197c38ea0bf1c0c2eeb83025f7e78d57a83: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/ca/b045a0992f5360729f0b919419752f04a57446: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/cb/217dc394b019101285cb263a1eef3a91b19106: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/d0/4c44f4af37d43d3bdd2dc46a6807675c1144b5: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/d2/4f7de23eed3cbb8a79eb39ca7856019aab0277: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/d7/7852054d4d2dc09f24860fc94709f5bb72de89: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/d8/c9ae3d51bd61a2e974538fde7e04319f767cfc: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/db/6ed48908b0758aa35b72d91010d17d27ba0334: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/de/8bdc00eb2fed53494a534d48e400faa830dbd9: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/de/9040fb286c36c86cc5feb3931cb0eee845bb0d: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/e6/9de29bb2d1d6434b8b29ae775ad8c2e48c5391: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/e7/60a69e0c5af5f4ddd77fedd8844d87d30ff84e: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/e8/43529f82eafda17dd7cf5c92f42072c1695c1e: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/ea/5d68b7c457cb7f92da9c00a5c4df77ace36cef: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/eb/e3b8a55515647b5b9b8f4a60e0ba3ba31d1e7d: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/f0/f81034c5306b3e949eb36253ef1d42b4837bb8: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/f0/ffae45392821dc96d2c167e97279fba5e4864a: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/f1/3ed9be90a027fdb379508d3562646a09ca3433: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/f1/be76a2dcaff4b2573d32b6bb02b421fb1ef8b0: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/f7/aba64446f24b1016e917ba437717df16a7c9e2: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/f9/64eca487b8d877dd07e817473bf0ce9eef9300: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/fc/8d486e1f8b598a6bec4b603c85dbfb1e3968ed: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/fd/18c6eac0dc9ffbdf025c31d136901350a0d9f2: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/objects/fe/cfceffa0db0eaf825b10bf6b6b9a65bf0dc728: Conflict: New files that differ
+2019-05-30 10:03:28: /.git/refs/heads/master: Conflict: New files that differ
+2019-05-30 10:03:28: /.vscode/ipch/73085160bc964ad6/DIY 2 -AVL Tree.ipch: Conflict: New files that differ
+2019-05-30 10:03:28: /.vscode/ipch/73085160bc964ad6/mmap_address.bin: Conflict: New files that differ
+2019-05-30 10:03:28: /.vscode/ipch/ce0c54aefcc5d9fe/DIY-AVL tree.ipch: Conflict: New files that differ
+2019-05-30 10:03:28: /.vscode/ipch/ce0c54aefcc5d9fe/mmap_address.bin: Conflict: New files that differ
+2019-05-30 10:03:28: /.vscode/ipch/ea20b81967fa9f97/AVL tree.ipch: Conflict: New files that differ
+2019-05-30 10:03:28: /.vscode/ipch/ea20b81967fa9f97/mmap_address.bin: Conflict: New files that differ
+2019-05-30 10:03:28: /.vscode/settings.json: Conflict: New files that differ
+2019-05-30 10:03:28: /Base/__init__.py: Conflict: New files that differ
+2019-05-30 10:03:28: /Base/__pycache__/__init__.cpython-36.pyc: Conflict: New files that differ
+2019-05-30 10:03:28: /Base/__pycache__/__init__.cpython-37.pyc: Conflict: New files that differ
+2019-05-30 10:03:28: /Base/__pycache__/admin.cpython-36.pyc: Conflict: New files that differ
+2019-05-30 10:03:28: /Base/__pycache__/admin.cpython-37.pyc: Conflict: New files that differ
+2019-05-30 10:03:28: /Base/__pycache__/models.cpython-36.pyc: Conflict: New files that differ
+2019-05-30 10:03:28: /Base/__pycache__/models.cpython-37.pyc: Conflict: New files that differ
+2019-05-30 10:03:28: /Base/__pycache__/views.cpython-36.pyc: Conflict: New files that differ
+2019-05-30 10:03:28: /Base/__pycache__/views.cpython-37.pyc: Conflict: New files that differ
+2019-05-30 10:03:28: /Base/admin.py: Conflict: New files that differ
+2019-05-30 10:03:28: /Base/apps.py: Conflict: New files that differ
+2019-05-30 10:03:28: /Base/migrations/__init__.py: Conflict: New files that differ
+2019-05-30 10:03:28: /Base/migrations/__pycache__/__init__.cpython-36.pyc: Conflict: New files that differ
+2019-05-30 10:03:28: /Base/migrations/__pycache__/__init__.cpython-37.pyc: Conflict: New files that differ
+2019-05-30 10:03:28: /Base/models.py: Conflict: New files that differ
+2019-05-30 10:03:28: /Base/templatetags/__init__.py: Conflict: New files that differ
+2019-05-30 10:03:28: /Base/templatetags/__pycache__/__init__.cpython-36.pyc: Conflict: New files that differ
+2019-05-30 10:03:28: /Base/templatetags/__pycache__/__init__.cpython-37.pyc: Conflict: New files that differ
+2019-05-30 10:03:28: /Base/templatetags/__pycache__/active_tag.cpython-36.pyc: Conflict: New files that differ
+2019-05-30 10:03:28: /Base/templatetags/__pycache__/active_tag.cpython-37.pyc: Conflict: New files that differ
+2019-05-30 10:03:28: /Base/templatetags/active_tag.py: Conflict: New files that differ
+2019-05-30 10:03:28: /Base/tests.py: Conflict: New files that differ
+2019-05-30 10:03:28: /Base/views.py: Conflict: New files that differ
+2019-05-30 10:03:28: /db.sqlite3: Conflict: New files that differ
+2019-05-30 10:03:28: /Download/__init__.py: Conflict: New files that differ
+2019-05-30 10:03:28: /Download/__pycache__/__init__.cpython-36.pyc: Conflict: New files that differ
+2019-05-30 10:03:28: /Download/__pycache__/__init__.cpython-37.pyc: Conflict: New files that differ
+2019-05-30 10:03:28: /Download/__pycache__/admin.cpython-36.pyc: Conflict: New files that differ
+2019-05-30 10:03:28: /Download/__pycache__/admin.cpython-37.pyc: Conflict: New files that differ
+2019-05-30 10:03:28: /Download/__pycache__/models.cpython-36.pyc: Conflict: New files that differ
+2019-05-30 10:03:28: /Download/__pycache__/models.cpython-37.pyc: Conflict: New files that differ
+2019-05-30 10:03:28: /Download/__pycache__/views.cpython-36.pyc: Conflict: New files that differ
+2019-05-30 10:03:28: /Download/__pycache__/views.cpython-37.pyc: Conflict: New files that differ
+2019-05-30 10:03:28: /Download/admin.py: Conflict: New files that differ
+2019-05-30 10:03:28: /Download/apps.py: Conflict: New files that differ
+2019-05-30 10:03:28: /Download/migrations/__init__.py: Conflict: New files that differ
+2019-05-30 10:03:28: /Download/migrations/__pycache__/__init__.cpython-36.pyc: Conflict: New files that differ
+2019-05-30 10:03:28: /Download/migrations/__pycache__/__init__.cpython-37.pyc: Conflict: New files that differ
+2019-05-30 10:03:28: /Download/models.py: Conflict: New files that differ
+2019-05-30 10:03:28: /Download/tests.py: Conflict: New files that differ
+2019-05-30 10:03:28: /Download/views.py: Conflict: New files that differ
+2019-05-30 10:03:28: /manage.py: Conflict: New files that differ
+2019-05-30 10:03:28: /Report/__init__.py: Conflict: New files that differ
+2019-05-30 10:03:28: /Report/__pycache__/__init__.cpython-36.pyc: Conflict: New files that differ
+2019-05-30 10:03:28: /Report/__pycache__/__init__.cpython-37.pyc: Conflict: New files that differ
+2019-05-30 10:03:28: /Report/__pycache__/settings.cpython-36.pyc: Conflict: New files that differ
+2019-05-30 10:03:28: /Report/__pycache__/settings.cpython-37.pyc: Conflict: New files that differ
+2019-05-30 10:03:28: /Report/__pycache__/urls.cpython-36.pyc: Conflict: New files that differ
+2019-05-30 10:03:28: /Report/__pycache__/urls.cpython-37.pyc: Conflict: New files that differ
+2019-05-30 10:03:28: /Report/__pycache__/wsgi.cpython-36.pyc: Conflict: New files that differ
+2019-05-30 10:03:28: /Report/__pycache__/wsgi.cpython-37.pyc: Conflict: New files that differ
+2019-05-30 10:03:28: /Report/settings.py: Conflict: New files that differ
+2019-05-30 10:03:28: /Report/urls.py: Conflict: New files that differ
+2019-05-30 10:03:28: /Report/wsgi.py: Conflict: New files that differ
+2019-05-30 10:03:28: /static/css/menu.css: Conflict: New files that differ
+2019-05-30 10:03:28: /static/images/grey.png: Conflict: New files that differ
+2019-05-30 10:03:28: /System/__init__.py: Conflict: New files that differ
+2019-05-30 10:03:28: /System/__pycache__/__init__.cpython-36.pyc: Conflict: New files that differ
+2019-05-30 10:03:28: /System/__pycache__/__init__.cpython-37.pyc: Conflict: New files that differ
+2019-05-30 10:03:28: /System/__pycache__/admin.cpython-36.pyc: Conflict: New files that differ
+2019-05-30 10:03:28: /System/__pycache__/admin.cpython-37.pyc: Conflict: New files that differ
+2019-05-30 10:03:28: /System/__pycache__/models.cpython-36.pyc: Conflict: New files that differ
+2019-05-30 10:03:28: /System/__pycache__/models.cpython-37.pyc: Conflict: New files that differ
+2019-05-30 10:03:28: /System/__pycache__/views.cpython-36.pyc: Conflict: New files that differ
+2019-05-30 10:03:28: /System/__pycache__/views.cpython-37.pyc: Conflict: New files that differ
+2019-05-30 10:03:28: /System/admin.py: Conflict: New files that differ
+2019-05-30 10:03:28: /System/apps.py: Conflict: New files that differ
+2019-05-30 10:03:28: /System/migrations/0001_initial.py: Conflict: New files that differ
+2019-05-30 10:03:28: /System/migrations/__init__.py: Conflict: New files that differ
+2019-05-30 10:03:28: /System/migrations/__pycache__/0001_initial.cpython-36.pyc: Conflict: New files that differ
+2019-05-30 10:03:28: /System/migrations/__pycache__/0001_initial.cpython-37.pyc: Conflict: New files that differ
+2019-05-30 10:03:28: /System/migrations/__pycache__/__init__.cpython-36.pyc: Conflict: New files that differ
+2019-05-30 10:03:28: /System/migrations/__pycache__/__init__.cpython-37.pyc: Conflict: New files that differ
+2019-05-30 10:03:28: /System/models.py: Conflict: New files that differ
+2019-05-30 10:03:28: /System/tests.py: Conflict: New files that differ
+2019-05-30 10:03:28: /System/views.py: Conflict: New files that differ
+2019-05-30 10:03:28: /templates/download.html: Conflict: New files that differ
+2019-05-30 10:03:28: /templates/footer.html: Conflict: New files that differ
+2019-05-30 10:03:28: /templates/Header.html: Conflict: New files that differ
+2019-05-30 10:03:28: /templates/Home.html: Conflict: New files that differ
+2019-05-30 10:03:28: /templates/Home_content.html: Conflict: New files that differ
+2019-05-30 10:03:28: /templates/Register.html: Conflict: New files that differ
+2019-05-30 10:03:28: /templates/Update_log.html: Conflict: New files that differ
+2019-05-30 10:03:28: /templates/Verification_letter.html: Conflict: New files that differ
+2019-05-30 10:03:28: /User/__init__.py: Conflict: New files that differ
+2019-05-30 10:03:28: /User/__pycache__/__init__.cpython-36.pyc: Conflict: New files that differ
+2019-05-30 10:03:28: /User/__pycache__/__init__.cpython-37.pyc: Conflict: New files that differ
+2019-05-30 10:03:28: /User/__pycache__/admin.cpython-36.pyc: Conflict: New files that differ
+2019-05-30 10:03:28: /User/__pycache__/admin.cpython-37.pyc: Conflict: New files that differ
+2019-05-30 10:03:28: /User/__pycache__/models.cpython-36.pyc: Conflict: New files that differ
+2019-05-30 10:03:28: /User/__pycache__/models.cpython-37.pyc: Conflict: New files that differ
+2019-05-30 10:03:28: /User/__pycache__/views.cpython-36.pyc: Conflict: New files that differ
+2019-05-30 10:03:28: /User/__pycache__/views.cpython-37.pyc: Conflict: New files that differ
+2019-05-30 10:03:28: /User/admin.py: Conflict: New files that differ
+2019-05-30 10:03:28: /User/apps.py: Conflict: New files that differ
+2019-05-30 10:03:28: /User/migrations/0001_initial.py: Conflict: New files that differ
+2019-05-30 10:03:28: /User/migrations/0002_remove_user_uid.py: Conflict: New files that differ
+2019-05-30 10:03:28: /User/migrations/__init__.py: Conflict: New files that differ
+2019-05-30 10:03:28: /User/migrations/__pycache__/0001_initial.cpython-36.pyc: Conflict: New files that differ
+2019-05-30 10:03:28: /User/migrations/__pycache__/0001_initial.cpython-37.pyc: Conflict: New files that differ
+2019-05-30 10:03:28: /User/migrations/__pycache__/0002_remove_user_uid.cpython-36.pyc: Conflict: New files that differ
+2019-05-30 10:03:28: /User/migrations/__pycache__/0002_remove_user_uid.cpython-37.pyc: Conflict: New files that differ
+2019-05-30 10:03:28: /User/migrations/__pycache__/__init__.cpython-36.pyc: Conflict: New files that differ
+2019-05-30 10:03:28: /User/migrations/__pycache__/__init__.cpython-37.pyc: Conflict: New files that differ
+2019-05-30 10:03:28: /User/models.py: Conflict: New files that differ
+2019-05-30 10:03:28: /User/tests.py: Conflict: New files that differ
+2019-05-30 10:03:28: /User/views.py: Conflict: New files that differ
+2019-05-30 10:03:28: Analyze has finished with Conflicts. Resolve Conflicts by selecting the correct sync direction, then click Sync
+2019-05-30 10:03:28: Changes: 245, Conflicts: 237, CopyTime: 0, FixState: 129, Errors: 0, All: 375
+2019-05-30 10:03:28: Left to Right: Copy File: 7 
+2019-05-30 10:03:28: Right to Left: Copy File: 1 
+2019-05-30 10:03:28: -- Analysis Complete. Time 00:00:06, Speed: 62 files/s
+2019-05-30 10:03:28: 
+2019-05-30 10:03:30: == Sync Started by User Command
+2019-05-30 10:03:30: /.git/COMMIT_EDITMSG: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/config: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/description: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/HEAD: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/hooks/applypatch-msg.sample: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/hooks/commit-msg.sample: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/hooks/fsmonitor-watchman.sample: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/hooks/post-update.sample: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/hooks/pre-applypatch.sample: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/hooks/pre-commit.sample: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/hooks/pre-push.sample: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/hooks/pre-rebase.sample: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/hooks/pre-receive.sample: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/hooks/prepare-commit-msg.sample: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/hooks/update.sample: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/index: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/info/exclude: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/logs/HEAD: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/logs/refs/heads/master: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/01/40c922966a6c1ce21280d0c7accda9a99ba02b: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/02/8c32d7dc4dc50eeed5fe02766112f64feec600: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/02/db75feecca51d4b9a9a7085a6232fc8f00edbf: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/04/a9cbc0d4f1041da0d2f8fe0f968dbcdde79feb: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/06/d64da4cb217106325cee86c59801e32f07122c: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/07/e6f3ab05bad67006bb8240757e204a8a6a064e: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/09/e265c54e22edacade3a354da16914f3429f9f6: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/0b/a793f9a919f3681aff7834c9caf6ef42afe72f: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/0f/d7fbf14aca68eed929f8f23a70a256e46a8525: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/10/66d084012b15534ec474d765731527af13694d: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/14/cacf01089d38b61e94b10665624368b00593e8: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/17/43d1998ee4ec183a0b025cd0d7453e6fab7475: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/17/e13d8053e4755c8ff7e8f1ca8c2deb30c528ca: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/19/33f1ead8ace5568c33bb05d4f039d110d9c1e0: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/1a/92db800f75780dbb485d0d078b30bddc06e638: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/1a/a673960069f3865b63f73460532e15fe32e4ca: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/1a/f4306768259ca9b2b2306ce5450cb0d33d9a54: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/1f/b213ef54f508a14efd26f0d8931aa18fbdcb18: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/20/568765777f6a3c69f3831614e6296b3eca0ce2: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/22/fef2b97fb4709726c71bedbde5ae905ad1fc74: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/26/39846cb02ade1b63d1bf076ff122685fb20de7: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/26/d56e939f8c1717af69385168706703b37fc159: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/2e/533566c7cbfdd9223a5c59b797042bd5afe715: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/33/2a13ff29324dd46c24768dbdcbd48d470d4457: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/33/9218aa98c2e467b1c9ea8cb290cda1ad90b8bd: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/3b/37c919ed39e47dac76c27dd29e3142043ad910: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/3b/e5e3135651df43393c4da7c334570570d199d7: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/3d/219391bc6053c73f56ff7fbc1d786bf31f07db: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/45/4a54560b44b1b23625fa6e02c58a143e684618: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/46/5c891c339831f67556296e5f0e34ffb8ac01c8: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/47/57e96fe7447bf92a98b30e6d4b5e381c38420b: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/48/143d8f97a1cb0f7aa6a63d67ef871d233a1f80: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/4a/63120976fd18bfd7f401ba913932c505ca7e9a: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/4b/86e85598e58020a240b515a7a51247f3aea180: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/4c/2f0f4c874665336c3589dc77d9c4243230eacf: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/4f/8bb5620f43b51f4ea1f80fca69b21073341a46: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/52/894eeaed253bf308e20521f7d91ad61717df2b: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/58/6e23665396b486d1bc56ee32ad1a485c8738ef: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/59/44121a3c8abdc583237ff2a4b9cdb809d91ee8: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/59/b73bd42a7aaea3a5128cff823815b932ba8ce0: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/5c/291ee2054ea5b325f89e45a83dd13c7ae4b4a9: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/5e/6246c546e0e67e9de33df7c9a5f3bee04a8ad9: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/60/e28abb5c2c5c9a147f132d7282e1c520a8c162: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/61/7c98e43024a0ddbba7f8d6e7f5064d043730ce: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/67/067004918c2dbb4a25f64f5cf971abad2aa880: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/69/f3de47937cdc31783eb3d98ff3839e5e31ddc7: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/6c/1c5e0ab935bebdba24418c15f76ec8a4a01fce: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/6c/82c70fd26dc0bb05e638aeaca4ac28511ece99: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/76/b20f079371fcea694978ec4a0fd0c1e1e3ad03: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/77/066b6d29102a11b4adf19fca7eb6f8c2d7c218: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/7b/5c4a95723639b1b7c19fa1064b74bd56d5ebe4: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/7c/f36890c74f67d59316d13e6d411347ede72546: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/82/14eb8ca39ab52e24563eeb972c47c7f0d545cd: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/82/76f26d94718dce88a4ab12be22f603980d90fb: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/86/2b8428b9e068428b1a4e8a38f94019008d8940: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/8a/ca8bb584fc0f64b950c683ac46bf012c09f3de: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/8b/4fa81abf5e475c2058236169334e2a1212d2ce: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/8c/9bf8e38724695d052d949705d2d3fa2d598e44: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/8f/a507f68ebd49ea0ec6aeef0d4657abe949d765: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/91/d55378c5281e247270e9a3b31de0df878655c8: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/93/aff72e1f30d59d114ada4388488fe8d663df4f: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/93/b32430b5dc8ff6a3b804ec29308a8b60c0b609: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/97/3495505d5203141626330facd0469c7f96016a: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/98/330256c8b6cfd21c77b8a7765dd3315c0e13d1: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/9a/61bc703e7142ed230178ebb5d451a897339601: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/9a/e23933acef9df606dffd822cf367e0eb06e7b3: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/9c/233b688a4479e971ceac6c14029418f67b73e1: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/9d/7068f6db92bf199b557aeb0712aa053f5606d7: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/9e/819295156f02e94e8f10fd53a55ad85082497c: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/a2/1f0fadea18d4dfc789602dcd7116abb43558bc: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/a3/4be30d0a478a1e0da27f1598f60f15fd92e979: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/a3/93fda7bdd27df8ebcdfbe93d4c3fb89a9ac917: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/a3/9afdbe6f2798d2f08a7798d2fd765bbb2a42fe: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/a5/0c32a03ecd563c431b79dbef992e55d5b80850: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/a6/29acd3a0ae4df09c240c9beb2833ade0cf12b5: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/b1/28ec6b3cb28a0706b9e4003ad4ae6835f1f501: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/b7/9c372a7b6adb9e55dd5a8a43c792df8c9ec17c: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/c1/8a1d5da4b75534efb9e1c18ed1fc6fd851a3ab: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/c3/5b7ee13d3cc749ca9475f8a80aed0d5045d2cb: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/c4/c74197c38ea0bf1c0c2eeb83025f7e78d57a83: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/ca/b045a0992f5360729f0b919419752f04a57446: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/cb/217dc394b019101285cb263a1eef3a91b19106: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/d0/4c44f4af37d43d3bdd2dc46a6807675c1144b5: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/d2/4f7de23eed3cbb8a79eb39ca7856019aab0277: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/d7/7852054d4d2dc09f24860fc94709f5bb72de89: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/d8/c9ae3d51bd61a2e974538fde7e04319f767cfc: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/db/6ed48908b0758aa35b72d91010d17d27ba0334: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/de/8bdc00eb2fed53494a534d48e400faa830dbd9: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/de/9040fb286c36c86cc5feb3931cb0eee845bb0d: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/e6/9de29bb2d1d6434b8b29ae775ad8c2e48c5391: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/e7/60a69e0c5af5f4ddd77fedd8844d87d30ff84e: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/e8/43529f82eafda17dd7cf5c92f42072c1695c1e: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/ea/5d68b7c457cb7f92da9c00a5c4df77ace36cef: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/eb/e3b8a55515647b5b9b8f4a60e0ba3ba31d1e7d: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/f0/f81034c5306b3e949eb36253ef1d42b4837bb8: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/f0/ffae45392821dc96d2c167e97279fba5e4864a: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/f1/3ed9be90a027fdb379508d3562646a09ca3433: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/f1/be76a2dcaff4b2573d32b6bb02b421fb1ef8b0: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/f7/aba64446f24b1016e917ba437717df16a7c9e2: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/f9/64eca487b8d877dd07e817473bf0ce9eef9300: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/fc/8d486e1f8b598a6bec4b603c85dbfb1e3968ed: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/fd/18c6eac0dc9ffbdf025c31d136901350a0d9f2: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/objects/fe/cfceffa0db0eaf825b10bf6b6b9a65bf0dc728: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.git/refs/heads/master: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.vscode/ipch/73085160bc964ad6/DIY 2 -AVL Tree.ipch: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.vscode/ipch/73085160bc964ad6/mmap_address.bin: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.vscode/ipch/ce0c54aefcc5d9fe/DIY-AVL tree.ipch: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.vscode/ipch/ce0c54aefcc5d9fe/mmap_address.bin: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.vscode/ipch/ea20b81967fa9f97/AVL tree.ipch: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.vscode/ipch/ea20b81967fa9f97/mmap_address.bin: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /.vscode/settings.json: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /Base/__init__.py: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /Base/__pycache__/__init__.cpython-36.pyc: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /Base/__pycache__/__init__.cpython-37.pyc: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /Base/__pycache__/admin.cpython-36.pyc: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /Base/__pycache__/admin.cpython-37.pyc: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /Base/__pycache__/models.cpython-36.pyc: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /Base/__pycache__/models.cpython-37.pyc: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /Base/__pycache__/views.cpython-36.pyc: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /Base/__pycache__/views.cpython-37.pyc: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /Base/admin.py: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /Base/apps.py: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /Base/migrations/__init__.py: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /Base/migrations/__pycache__/__init__.cpython-36.pyc: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /Base/migrations/__pycache__/__init__.cpython-37.pyc: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /Base/models.py: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /Base/templatetags/__init__.py: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /Base/templatetags/__pycache__/__init__.cpython-36.pyc: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /Base/templatetags/__pycache__/__init__.cpython-37.pyc: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /Base/templatetags/__pycache__/active_tag.cpython-36.pyc: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /Base/templatetags/__pycache__/active_tag.cpython-37.pyc: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /Base/templatetags/active_tag.py: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /Base/tests.py: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /Base/views.py: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /db.sqlite3: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /Download/__init__.py: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /Download/__pycache__/__init__.cpython-36.pyc: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /Download/__pycache__/__init__.cpython-37.pyc: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /Download/__pycache__/admin.cpython-36.pyc: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /Download/__pycache__/admin.cpython-37.pyc: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /Download/__pycache__/models.cpython-36.pyc: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /Download/__pycache__/models.cpython-37.pyc: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /Download/__pycache__/views.cpython-36.pyc: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /Download/__pycache__/views.cpython-37.pyc: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /Download/admin.py: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /Download/apps.py: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /Download/migrations/__init__.py: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /Download/migrations/__pycache__/__init__.cpython-36.pyc: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /Download/migrations/__pycache__/__init__.cpython-37.pyc: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /Download/models.py: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /Download/tests.py: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /Download/views.py: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /manage.py: unresolved conflict results in No Copy
+2019-05-30 10:03:30: Copy New 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/nohup.out' -> 'D:/ProgrammingLanguagePractice/Django/Report/nohup.out' (2,381)
+2019-05-30 10:03:30: /Report/__init__.py: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /Report/__pycache__/__init__.cpython-36.pyc: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /Report/__pycache__/__init__.cpython-37.pyc: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /Report/__pycache__/settings.cpython-36.pyc: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /Report/__pycache__/settings.cpython-37.pyc: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /Report/__pycache__/urls.cpython-36.pyc: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /Report/__pycache__/urls.cpython-37.pyc: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /Report/__pycache__/wsgi.cpython-36.pyc: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /Report/__pycache__/wsgi.cpython-37.pyc: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /Report/settings.py: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /Report/urls.py: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /Report/wsgi.py: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /static/css/menu.css: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /static/images/grey.png: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /System/__init__.py: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /System/__pycache__/__init__.cpython-36.pyc: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /System/__pycache__/__init__.cpython-37.pyc: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /System/__pycache__/admin.cpython-36.pyc: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /System/__pycache__/admin.cpython-37.pyc: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /System/__pycache__/models.cpython-36.pyc: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /System/__pycache__/models.cpython-37.pyc: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /System/__pycache__/views.cpython-36.pyc: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /System/__pycache__/views.cpython-37.pyc: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /System/admin.py: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /System/apps.py: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /System/migrations/0001_initial.py: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /System/migrations/__init__.py: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /System/migrations/__pycache__/0001_initial.cpython-36.pyc: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /System/migrations/__pycache__/0001_initial.cpython-37.pyc: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /System/migrations/__pycache__/__init__.cpython-36.pyc: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /System/migrations/__pycache__/__init__.cpython-37.pyc: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /System/models.py: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /System/tests.py: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /System/views.py: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /templates/download.html: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /templates/footer.html: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /templates/Header.html: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /templates/Home.html: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /templates/Home_content.html: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /templates/Register.html: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /templates/Update_log.html: unresolved conflict results in No Copy
+2019-05-30 10:03:30: /templates/Verification_letter.html: unresolved conflict results in No Copy
+2019-05-30 10:03:31: Copy New 'D:/ProgrammingLanguagePractice/Django/Report/templates/Verify.html' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/templates/Verify.html' (0)
+2019-05-30 10:03:31: /User/__init__.py: unresolved conflict results in No Copy
+2019-05-30 10:03:31: /User/__pycache__/__init__.cpython-36.pyc: unresolved conflict results in No Copy
+2019-05-30 10:03:31: /User/__pycache__/__init__.cpython-37.pyc: unresolved conflict results in No Copy
+2019-05-30 10:03:31: /User/__pycache__/admin.cpython-36.pyc: unresolved conflict results in No Copy
+2019-05-30 10:03:31: /User/__pycache__/admin.cpython-37.pyc: unresolved conflict results in No Copy
+2019-05-30 10:03:31: /User/__pycache__/models.cpython-36.pyc: unresolved conflict results in No Copy
+2019-05-30 10:03:31: /User/__pycache__/models.cpython-37.pyc: unresolved conflict results in No Copy
+2019-05-30 10:03:31: /User/__pycache__/views.cpython-36.pyc: unresolved conflict results in No Copy
+2019-05-30 10:03:31: /User/__pycache__/views.cpython-37.pyc: unresolved conflict results in No Copy
+2019-05-30 10:03:31: /User/admin.py: unresolved conflict results in No Copy
+2019-05-30 10:03:31: /User/apps.py: unresolved conflict results in No Copy
+2019-05-30 10:03:31: /User/migrations/0001_initial.py: unresolved conflict results in No Copy
+2019-05-30 10:03:31: /User/migrations/0002_remove_user_uid.py: unresolved conflict results in No Copy
+2019-05-30 10:03:31: Copy New 'D:/ProgrammingLanguagePractice/Django/Report/User/migrations/0003_auto_20190529_1631.py' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/User/migrations/0003_auto_20190529_1631.py' (1,158)
+2019-05-30 10:03:31: Copy New 'D:/ProgrammingLanguagePractice/Django/Report/User/migrations/0004_auto_20190529_1632.py' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/User/migrations/0004_auto_20190529_1632.py' (382)
+2019-05-30 10:03:31: Copy New 'D:/ProgrammingLanguagePractice/Django/Report/User/migrations/0005_auto_20190529_1634.py' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/User/migrations/0005_auto_20190529_1634.py' (383)
+2019-05-30 10:03:31: /User/migrations/__init__.py: unresolved conflict results in No Copy
+2019-05-30 10:03:31: /User/migrations/__pycache__/0001_initial.cpython-36.pyc: unresolved conflict results in No Copy
+2019-05-30 10:03:31: /User/migrations/__pycache__/0001_initial.cpython-37.pyc: unresolved conflict results in No Copy
+2019-05-30 10:03:31: /User/migrations/__pycache__/0002_remove_user_uid.cpython-36.pyc: unresolved conflict results in No Copy
+2019-05-30 10:03:31: /User/migrations/__pycache__/0002_remove_user_uid.cpython-37.pyc: unresolved conflict results in No Copy
+2019-05-30 10:03:31: Copy New 'D:/ProgrammingLanguagePractice/Django/Report/User/migrations/__pycache__/0003_auto_20190529_1631.cpython-36.pyc' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/User/migrations/__pycache__/0003_auto_20190529_1631.cpython-36.pyc' (976)
+2019-05-30 10:03:31: Copy New 'D:/ProgrammingLanguagePractice/Django/Report/User/migrations/__pycache__/0004_auto_20190529_1632.cpython-36.pyc' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/User/migrations/__pycache__/0004_auto_20190529_1632.cpython-36.pyc' (593)
+2019-05-30 10:03:31: Copy New 'D:/ProgrammingLanguagePractice/Django/Report/User/migrations/__pycache__/0005_auto_20190529_1634.cpython-36.pyc' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/User/migrations/__pycache__/0005_auto_20190529_1634.cpython-36.pyc' (595)
+2019-05-30 10:03:31: /User/migrations/__pycache__/__init__.cpython-36.pyc: unresolved conflict results in No Copy
+2019-05-30 10:03:31: /User/migrations/__pycache__/__init__.cpython-37.pyc: unresolved conflict results in No Copy
+2019-05-30 10:03:31: /User/models.py: unresolved conflict results in No Copy
+2019-05-30 10:03:31: /User/tests.py: unresolved conflict results in No Copy
+2019-05-30 10:03:31: /User/views.py: unresolved conflict results in No Copy
+2019-05-30 10:03:31: == Sync Complete. Time: 00:00:01, Speed: 3.92 MB/s, OK: 137, Errors: 0
+2019-05-30 10:03:31: 

@@ -1,3 +1,25 @@
 {% include "Header.html" %}
-<p> Hello world! </p>
-{% include "footer.html" %}
+{% if not_login %}
+<p> Please download files after you are LOGGED IN! </p>
+{% else %}
+<br>
+<table class="log">
+<tr>
+<th> File Name </th>
+<th> Link </th>
+<th> Initial upload time </th>
+<th> Last time downloaded </th>
+<th> Hits </th>
+</tr>
+{% for f in files %}
+<tr>
+    <td> {{f.filename}}</td>
+    <td> <a href="../download?filename={{f.filename}}"> Download Link </td>
+    <td> {{f.init_upload_time}} </td>
+    <td> {{f.last_modified}} </td>
+    <td> {{f.download_counter}} </td>
+</tr>
+{% endfor %}
+</table>
+{% endif %}
+{% include "Footer.html" %}

@@ -16,14 +16,22 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 from django.urls import path
+from django.conf import settings
+from django.conf.urls.static import static
 from Base.views import home
 from Download.views import download
 from System.views import Update_log
+from User.views import Register, Verify, Login, Logout
+from django.views.static import serve
 
 urlpatterns = [
-    url(r'home/',home),
-    url(r'download/',download,None,'Download_url_name'),
-    url(r'^admin/', admin.site.urls),
-    url(r'^$',home,None,'Home_url_name'),
-    url(r'^log/',Update_log),
-]
+    path('home/',home),
+    path('download/',download,None,'Download_url_name'),
+    path('admin/', admin.site.urls),
+    path('',home,None,'Home_url_name'),
+    path('log/',Update_log),
+    path('register/', Register, None,'Register_url_name'),
+    path('verify/', Verify),
+    path('login/', Login, None, 'Login_url_name'),
+    path('logout/',Logout, None, 'Logout_url_name'),
+] 
