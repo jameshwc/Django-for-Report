@@ -21,7 +21,7 @@
                    <li>{% block nav-download %} <a href={{ download }} >Download</a>{% endblock %}</li>
                    {% if request.session.username %}
                         <li class="user"><a href="{{ logout }}">{% block nav-logout %} Logout {% endblock %} </a> </li>
-                        <li class="user"><a href="user/{{request.session.username}}">{% block nav-user %} {{ request.session.username }}{% endblock %}</a></li>
+                        <li class="user"><a href="#">{% block nav-user %} {{ request.session.username }}{% endblock %}</a></li>
                    {% else %}
                    <li class="user">{% block nav-register %} <a href={{ register }}>Register</a>{% endblock %}</li>
                    <li class="user">{% block nav-login %} <a href={{ login }}>Login</a>{% endblock %} </li>

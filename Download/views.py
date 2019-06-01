@@ -5,9 +5,10 @@ from django.template import RequestContext
 from Download.models import Download_file
 from System.models import download_log
 from User.models import User
-# Create your views here.
+from Report.views import IP_log
 
 def download(request):
+    IP_log(request)
     if request.method == 'GET' and 'filename' in request.GET:
         if 'username' in request.session:
             filename = request.GET['filename']

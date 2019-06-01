@@ -1,9 +1,11 @@
 from django.contrib import admin
-from System.models import update_log, download_log
+from System.models import update_log, download_log, ip_log
 
 class Download_log_admin(admin.ModelAdmin):
     list_display = ('date','filename','user')
+class IP_log_admin(admin.ModelAdmin):
+    list_display = ('date','ip','user','page')
 
 admin.site.register(update_log)
 admin.site.register(download_log,Download_log_admin)
-# Register your models here.
+admin.site.register(ip_log,IP_log_admin)

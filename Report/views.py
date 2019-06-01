@@ -5,8 +5,6 @@ from django.core.exceptions import ObjectDoesNotExist
 from django.views.decorators.csrf import ensure_csrf_cookie
 from django.template import RequestContext
 from System.models import ip_log
-from django.urls import resolve
-
 
 def IP_log(request):
     x_forwarded_for = request.META.get('HTTP_X_FORWARDED_FOR')
@@ -18,6 +16,6 @@ def IP_log(request):
         user = User.objects.get(id=request.session['uid'])
     else:
         user = None
-    current_url = resolve(request.path_info).url_name    
+    current_url = request.get_full_path()
     data = ip_log(ip = ip, user = user,page=current_url)
     data.save()

@@ -9,6 +9,7 @@ from django.core.exceptions import ObjectDoesNotExist
 from django.views.decorators.csrf import ensure_csrf_cookie
 import random
 from datetime import datetime
+from Report.views import IP_log
 
 class User_register_form(forms.ModelForm):
     password = forms.CharField(widget=forms.PasswordInput, label='密碼')
@@ -55,6 +56,7 @@ class User_register_form(forms.ModelForm):
 
 @ensure_csrf_cookie
 def Register(request):
+    IP_log(request)
     if request.method == 'POST' :
         form = User_register_form(request.POST)
         if form.is_valid():
@@ -80,6 +82,7 @@ def Register(request):
 
 
 def Verify(request):
+    IP_log(request)
     email = request.GET['email']
     code = request.GET['code']
     verify = User.objects.filter(email=email, code=code) or None
@@ -101,6 +104,7 @@ class Login_form(forms.ModelForm):
 
 @ensure_csrf_cookie
 def Login(request):
+    IP_log(request)
     if request.method == 'POST':
         form = Login_form(request.POST)
         if form.is_valid():
@@ -129,6 +133,7 @@ def Login(request):
     return render_to_response('Login.html',locals(),RequestContext(request))
 
 def Logout(request):
+    IP_log(request)
     if 'username' in request.session:
         logout = True
         del request.session['username']
