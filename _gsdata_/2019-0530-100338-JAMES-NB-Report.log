@@ -1,0 +1,482 @@
+2019-05-30 10:03:39: -- Analysis Started by User Command
+2019-05-30 10:03:45: /.git/COMMIT_EDITMSG: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/config: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/description: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/HEAD: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/hooks/applypatch-msg.sample: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/hooks/commit-msg.sample: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/hooks/fsmonitor-watchman.sample: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/hooks/post-update.sample: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/hooks/pre-applypatch.sample: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/hooks/pre-commit.sample: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/hooks/pre-push.sample: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/hooks/pre-rebase.sample: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/hooks/pre-receive.sample: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/hooks/prepare-commit-msg.sample: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/hooks/update.sample: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/index: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/info/exclude: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/logs/HEAD: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/logs/refs/heads/master: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/01/40c922966a6c1ce21280d0c7accda9a99ba02b: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/02/8c32d7dc4dc50eeed5fe02766112f64feec600: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/02/db75feecca51d4b9a9a7085a6232fc8f00edbf: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/04/a9cbc0d4f1041da0d2f8fe0f968dbcdde79feb: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/06/d64da4cb217106325cee86c59801e32f07122c: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/07/e6f3ab05bad67006bb8240757e204a8a6a064e: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/09/e265c54e22edacade3a354da16914f3429f9f6: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/0b/a793f9a919f3681aff7834c9caf6ef42afe72f: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/0f/d7fbf14aca68eed929f8f23a70a256e46a8525: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/10/66d084012b15534ec474d765731527af13694d: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/14/cacf01089d38b61e94b10665624368b00593e8: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/17/43d1998ee4ec183a0b025cd0d7453e6fab7475: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/17/e13d8053e4755c8ff7e8f1ca8c2deb30c528ca: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/19/33f1ead8ace5568c33bb05d4f039d110d9c1e0: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/1a/92db800f75780dbb485d0d078b30bddc06e638: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/1a/a673960069f3865b63f73460532e15fe32e4ca: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/1a/f4306768259ca9b2b2306ce5450cb0d33d9a54: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/1f/b213ef54f508a14efd26f0d8931aa18fbdcb18: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/20/568765777f6a3c69f3831614e6296b3eca0ce2: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/22/fef2b97fb4709726c71bedbde5ae905ad1fc74: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/26/39846cb02ade1b63d1bf076ff122685fb20de7: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/26/d56e939f8c1717af69385168706703b37fc159: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/2e/533566c7cbfdd9223a5c59b797042bd5afe715: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/33/2a13ff29324dd46c24768dbdcbd48d470d4457: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/33/9218aa98c2e467b1c9ea8cb290cda1ad90b8bd: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/3b/37c919ed39e47dac76c27dd29e3142043ad910: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/3b/e5e3135651df43393c4da7c334570570d199d7: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/3d/219391bc6053c73f56ff7fbc1d786bf31f07db: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/45/4a54560b44b1b23625fa6e02c58a143e684618: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/46/5c891c339831f67556296e5f0e34ffb8ac01c8: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/47/57e96fe7447bf92a98b30e6d4b5e381c38420b: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/48/143d8f97a1cb0f7aa6a63d67ef871d233a1f80: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/4a/63120976fd18bfd7f401ba913932c505ca7e9a: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/4b/86e85598e58020a240b515a7a51247f3aea180: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/4c/2f0f4c874665336c3589dc77d9c4243230eacf: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/4f/8bb5620f43b51f4ea1f80fca69b21073341a46: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/52/894eeaed253bf308e20521f7d91ad61717df2b: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/58/6e23665396b486d1bc56ee32ad1a485c8738ef: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/59/44121a3c8abdc583237ff2a4b9cdb809d91ee8: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/59/b73bd42a7aaea3a5128cff823815b932ba8ce0: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/5c/291ee2054ea5b325f89e45a83dd13c7ae4b4a9: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/5e/6246c546e0e67e9de33df7c9a5f3bee04a8ad9: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/60/e28abb5c2c5c9a147f132d7282e1c520a8c162: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/61/7c98e43024a0ddbba7f8d6e7f5064d043730ce: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/67/067004918c2dbb4a25f64f5cf971abad2aa880: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/69/f3de47937cdc31783eb3d98ff3839e5e31ddc7: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/6c/1c5e0ab935bebdba24418c15f76ec8a4a01fce: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/6c/82c70fd26dc0bb05e638aeaca4ac28511ece99: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/76/b20f079371fcea694978ec4a0fd0c1e1e3ad03: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/77/066b6d29102a11b4adf19fca7eb6f8c2d7c218: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/7b/5c4a95723639b1b7c19fa1064b74bd56d5ebe4: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/7c/f36890c74f67d59316d13e6d411347ede72546: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/82/14eb8ca39ab52e24563eeb972c47c7f0d545cd: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/82/76f26d94718dce88a4ab12be22f603980d90fb: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/86/2b8428b9e068428b1a4e8a38f94019008d8940: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/8a/ca8bb584fc0f64b950c683ac46bf012c09f3de: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/8b/4fa81abf5e475c2058236169334e2a1212d2ce: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/8c/9bf8e38724695d052d949705d2d3fa2d598e44: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/8f/a507f68ebd49ea0ec6aeef0d4657abe949d765: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/91/d55378c5281e247270e9a3b31de0df878655c8: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/93/aff72e1f30d59d114ada4388488fe8d663df4f: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/93/b32430b5dc8ff6a3b804ec29308a8b60c0b609: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/97/3495505d5203141626330facd0469c7f96016a: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/98/330256c8b6cfd21c77b8a7765dd3315c0e13d1: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/9a/61bc703e7142ed230178ebb5d451a897339601: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/9a/e23933acef9df606dffd822cf367e0eb06e7b3: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/9c/233b688a4479e971ceac6c14029418f67b73e1: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/9d/7068f6db92bf199b557aeb0712aa053f5606d7: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/9e/819295156f02e94e8f10fd53a55ad85082497c: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/a2/1f0fadea18d4dfc789602dcd7116abb43558bc: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/a3/4be30d0a478a1e0da27f1598f60f15fd92e979: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/a3/93fda7bdd27df8ebcdfbe93d4c3fb89a9ac917: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/a3/9afdbe6f2798d2f08a7798d2fd765bbb2a42fe: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/a5/0c32a03ecd563c431b79dbef992e55d5b80850: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/a6/29acd3a0ae4df09c240c9beb2833ade0cf12b5: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/b1/28ec6b3cb28a0706b9e4003ad4ae6835f1f501: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/b7/9c372a7b6adb9e55dd5a8a43c792df8c9ec17c: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/c1/8a1d5da4b75534efb9e1c18ed1fc6fd851a3ab: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/c3/5b7ee13d3cc749ca9475f8a80aed0d5045d2cb: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/c4/c74197c38ea0bf1c0c2eeb83025f7e78d57a83: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/ca/b045a0992f5360729f0b919419752f04a57446: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/cb/217dc394b019101285cb263a1eef3a91b19106: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/d0/4c44f4af37d43d3bdd2dc46a6807675c1144b5: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/d2/4f7de23eed3cbb8a79eb39ca7856019aab0277: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/d7/7852054d4d2dc09f24860fc94709f5bb72de89: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/d8/c9ae3d51bd61a2e974538fde7e04319f767cfc: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/db/6ed48908b0758aa35b72d91010d17d27ba0334: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/de/8bdc00eb2fed53494a534d48e400faa830dbd9: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/de/9040fb286c36c86cc5feb3931cb0eee845bb0d: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/e6/9de29bb2d1d6434b8b29ae775ad8c2e48c5391: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/e7/60a69e0c5af5f4ddd77fedd8844d87d30ff84e: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/e8/43529f82eafda17dd7cf5c92f42072c1695c1e: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/ea/5d68b7c457cb7f92da9c00a5c4df77ace36cef: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/eb/e3b8a55515647b5b9b8f4a60e0ba3ba31d1e7d: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/f0/f81034c5306b3e949eb36253ef1d42b4837bb8: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/f0/ffae45392821dc96d2c167e97279fba5e4864a: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/f1/3ed9be90a027fdb379508d3562646a09ca3433: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/f1/be76a2dcaff4b2573d32b6bb02b421fb1ef8b0: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/f7/aba64446f24b1016e917ba437717df16a7c9e2: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/f9/64eca487b8d877dd07e817473bf0ce9eef9300: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/fc/8d486e1f8b598a6bec4b603c85dbfb1e3968ed: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/fd/18c6eac0dc9ffbdf025c31d136901350a0d9f2: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/objects/fe/cfceffa0db0eaf825b10bf6b6b9a65bf0dc728: Conflict: New files that differ
+2019-05-30 10:03:45: /.git/refs/heads/master: Conflict: New files that differ
+2019-05-30 10:03:45: /.vscode/ipch/73085160bc964ad6/DIY 2 -AVL Tree.ipch: Conflict: New files that differ
+2019-05-30 10:03:45: /.vscode/ipch/73085160bc964ad6/mmap_address.bin: Conflict: New files that differ
+2019-05-30 10:03:45: /.vscode/ipch/ce0c54aefcc5d9fe/DIY-AVL tree.ipch: Conflict: New files that differ
+2019-05-30 10:03:45: /.vscode/ipch/ce0c54aefcc5d9fe/mmap_address.bin: Conflict: New files that differ
+2019-05-30 10:03:45: /.vscode/ipch/ea20b81967fa9f97/AVL tree.ipch: Conflict: New files that differ
+2019-05-30 10:03:45: /.vscode/ipch/ea20b81967fa9f97/mmap_address.bin: Conflict: New files that differ
+2019-05-30 10:03:45: /.vscode/settings.json: Conflict: New files that differ
+2019-05-30 10:03:45: /Base/__init__.py: Conflict: New files that differ
+2019-05-30 10:03:45: /Base/__pycache__/__init__.cpython-36.pyc: Conflict: New files that differ
+2019-05-30 10:03:45: /Base/__pycache__/__init__.cpython-37.pyc: Conflict: New files that differ
+2019-05-30 10:03:45: /Base/__pycache__/admin.cpython-36.pyc: Conflict: New files that differ
+2019-05-30 10:03:45: /Base/__pycache__/admin.cpython-37.pyc: Conflict: New files that differ
+2019-05-30 10:03:45: /Base/__pycache__/models.cpython-36.pyc: Conflict: New files that differ
+2019-05-30 10:03:45: /Base/__pycache__/models.cpython-37.pyc: Conflict: New files that differ
+2019-05-30 10:03:45: /Base/__pycache__/views.cpython-36.pyc: Conflict: New files that differ
+2019-05-30 10:03:45: /Base/__pycache__/views.cpython-37.pyc: Conflict: New files that differ
+2019-05-30 10:03:45: /Base/admin.py: Conflict: New files that differ
+2019-05-30 10:03:45: /Base/apps.py: Conflict: New files that differ
+2019-05-30 10:03:45: /Base/migrations/__init__.py: Conflict: New files that differ
+2019-05-30 10:03:45: /Base/migrations/__pycache__/__init__.cpython-36.pyc: Conflict: New files that differ
+2019-05-30 10:03:45: /Base/migrations/__pycache__/__init__.cpython-37.pyc: Conflict: New files that differ
+2019-05-30 10:03:45: /Base/models.py: Conflict: New files that differ
+2019-05-30 10:03:45: /Base/templatetags/__init__.py: Conflict: New files that differ
+2019-05-30 10:03:45: /Base/templatetags/__pycache__/__init__.cpython-36.pyc: Conflict: New files that differ
+2019-05-30 10:03:45: /Base/templatetags/__pycache__/__init__.cpython-37.pyc: Conflict: New files that differ
+2019-05-30 10:03:45: /Base/templatetags/__pycache__/active_tag.cpython-36.pyc: Conflict: New files that differ
+2019-05-30 10:03:45: /Base/templatetags/__pycache__/active_tag.cpython-37.pyc: Conflict: New files that differ
+2019-05-30 10:03:45: /Base/templatetags/active_tag.py: Conflict: New files that differ
+2019-05-30 10:03:45: /Base/tests.py: Conflict: New files that differ
+2019-05-30 10:03:45: /Base/views.py: Conflict: New files that differ
+2019-05-30 10:03:45: /db.sqlite3: Conflict: New files that differ
+2019-05-30 10:03:45: /Download/__init__.py: Conflict: New files that differ
+2019-05-30 10:03:45: /Download/__pycache__/__init__.cpython-36.pyc: Conflict: New files that differ
+2019-05-30 10:03:45: /Download/__pycache__/__init__.cpython-37.pyc: Conflict: New files that differ
+2019-05-30 10:03:45: /Download/__pycache__/admin.cpython-36.pyc: Conflict: New files that differ
+2019-05-30 10:03:45: /Download/__pycache__/admin.cpython-37.pyc: Conflict: New files that differ
+2019-05-30 10:03:45: /Download/__pycache__/models.cpython-36.pyc: Conflict: New files that differ
+2019-05-30 10:03:45: /Download/__pycache__/models.cpython-37.pyc: Conflict: New files that differ
+2019-05-30 10:03:45: /Download/__pycache__/views.cpython-36.pyc: Conflict: New files that differ
+2019-05-30 10:03:45: /Download/__pycache__/views.cpython-37.pyc: Conflict: New files that differ
+2019-05-30 10:03:45: /Download/admin.py: Conflict: New files that differ
+2019-05-30 10:03:45: /Download/apps.py: Conflict: New files that differ
+2019-05-30 10:03:45: /Download/migrations/__init__.py: Conflict: New files that differ
+2019-05-30 10:03:45: /Download/migrations/__pycache__/__init__.cpython-36.pyc: Conflict: New files that differ
+2019-05-30 10:03:45: /Download/migrations/__pycache__/__init__.cpython-37.pyc: Conflict: New files that differ
+2019-05-30 10:03:45: /Download/models.py: Conflict: New files that differ
+2019-05-30 10:03:45: /Download/tests.py: Conflict: New files that differ
+2019-05-30 10:03:45: /Download/views.py: Conflict: New files that differ
+2019-05-30 10:03:45: /manage.py: Conflict: New files that differ
+2019-05-30 10:03:45: /Report/__init__.py: Conflict: New files that differ
+2019-05-30 10:03:45: /Report/__pycache__/__init__.cpython-36.pyc: Conflict: New files that differ
+2019-05-30 10:03:45: /Report/__pycache__/__init__.cpython-37.pyc: Conflict: New files that differ
+2019-05-30 10:03:45: /Report/__pycache__/settings.cpython-36.pyc: Conflict: New files that differ
+2019-05-30 10:03:45: /Report/__pycache__/settings.cpython-37.pyc: Conflict: New files that differ
+2019-05-30 10:03:45: /Report/__pycache__/urls.cpython-36.pyc: Conflict: New files that differ
+2019-05-30 10:03:45: /Report/__pycache__/urls.cpython-37.pyc: Conflict: New files that differ
+2019-05-30 10:03:45: /Report/__pycache__/wsgi.cpython-36.pyc: Conflict: New files that differ
+2019-05-30 10:03:45: /Report/__pycache__/wsgi.cpython-37.pyc: Conflict: New files that differ
+2019-05-30 10:03:45: /Report/settings.py: Conflict: New files that differ
+2019-05-30 10:03:45: /Report/urls.py: Conflict: New files that differ
+2019-05-30 10:03:45: /Report/wsgi.py: Conflict: New files that differ
+2019-05-30 10:03:45: /static/css/menu.css: Conflict: New files that differ
+2019-05-30 10:03:45: /static/images/grey.png: Conflict: New files that differ
+2019-05-30 10:03:45: /System/__init__.py: Conflict: New files that differ
+2019-05-30 10:03:45: /System/__pycache__/__init__.cpython-36.pyc: Conflict: New files that differ
+2019-05-30 10:03:45: /System/__pycache__/__init__.cpython-37.pyc: Conflict: New files that differ
+2019-05-30 10:03:45: /System/__pycache__/admin.cpython-36.pyc: Conflict: New files that differ
+2019-05-30 10:03:45: /System/__pycache__/admin.cpython-37.pyc: Conflict: New files that differ
+2019-05-30 10:03:45: /System/__pycache__/models.cpython-36.pyc: Conflict: New files that differ
+2019-05-30 10:03:45: /System/__pycache__/models.cpython-37.pyc: Conflict: New files that differ
+2019-05-30 10:03:45: /System/__pycache__/views.cpython-36.pyc: Conflict: New files that differ
+2019-05-30 10:03:45: /System/__pycache__/views.cpython-37.pyc: Conflict: New files that differ
+2019-05-30 10:03:45: /System/admin.py: Conflict: New files that differ
+2019-05-30 10:03:45: /System/apps.py: Conflict: New files that differ
+2019-05-30 10:03:45: /System/migrations/0001_initial.py: Conflict: New files that differ
+2019-05-30 10:03:45: /System/migrations/__init__.py: Conflict: New files that differ
+2019-05-30 10:03:45: /System/migrations/__pycache__/0001_initial.cpython-36.pyc: Conflict: New files that differ
+2019-05-30 10:03:45: /System/migrations/__pycache__/0001_initial.cpython-37.pyc: Conflict: New files that differ
+2019-05-30 10:03:45: /System/migrations/__pycache__/__init__.cpython-36.pyc: Conflict: New files that differ
+2019-05-30 10:03:45: /System/migrations/__pycache__/__init__.cpython-37.pyc: Conflict: New files that differ
+2019-05-30 10:03:45: /System/models.py: Conflict: New files that differ
+2019-05-30 10:03:45: /System/tests.py: Conflict: New files that differ
+2019-05-30 10:03:45: /System/views.py: Conflict: New files that differ
+2019-05-30 10:03:45: /templates/download.html: Conflict: New files that differ
+2019-05-30 10:03:45: /templates/footer.html: Conflict: New files that differ
+2019-05-30 10:03:45: /templates/Header.html: Conflict: New files that differ
+2019-05-30 10:03:45: /templates/Home.html: Conflict: New files that differ
+2019-05-30 10:03:45: /templates/Home_content.html: Conflict: New files that differ
+2019-05-30 10:03:45: /templates/Register.html: Conflict: New files that differ
+2019-05-30 10:03:45: /templates/Update_log.html: Conflict: New files that differ
+2019-05-30 10:03:45: /templates/Verification_letter.html: Conflict: New files that differ
+2019-05-30 10:03:45: /User/__init__.py: Conflict: New files that differ
+2019-05-30 10:03:45: /User/__pycache__/__init__.cpython-36.pyc: Conflict: New files that differ
+2019-05-30 10:03:45: /User/__pycache__/__init__.cpython-37.pyc: Conflict: New files that differ
+2019-05-30 10:03:45: /User/__pycache__/admin.cpython-36.pyc: Conflict: New files that differ
+2019-05-30 10:03:45: /User/__pycache__/admin.cpython-37.pyc: Conflict: New files that differ
+2019-05-30 10:03:45: /User/__pycache__/models.cpython-36.pyc: Conflict: New files that differ
+2019-05-30 10:03:45: /User/__pycache__/models.cpython-37.pyc: Conflict: New files that differ
+2019-05-30 10:03:45: /User/__pycache__/views.cpython-36.pyc: Conflict: New files that differ
+2019-05-30 10:03:45: /User/__pycache__/views.cpython-37.pyc: Conflict: New files that differ
+2019-05-30 10:03:45: /User/admin.py: Conflict: New files that differ
+2019-05-30 10:03:45: /User/apps.py: Conflict: New files that differ
+2019-05-30 10:03:45: /User/migrations/0001_initial.py: Conflict: New files that differ
+2019-05-30 10:03:45: /User/migrations/0002_remove_user_uid.py: Conflict: New files that differ
+2019-05-30 10:03:45: /User/migrations/__init__.py: Conflict: New files that differ
+2019-05-30 10:03:45: /User/migrations/__pycache__/0001_initial.cpython-36.pyc: Conflict: New files that differ
+2019-05-30 10:03:45: /User/migrations/__pycache__/0001_initial.cpython-37.pyc: Conflict: New files that differ
+2019-05-30 10:03:45: /User/migrations/__pycache__/0002_remove_user_uid.cpython-36.pyc: Conflict: New files that differ
+2019-05-30 10:03:45: /User/migrations/__pycache__/0002_remove_user_uid.cpython-37.pyc: Conflict: New files that differ
+2019-05-30 10:03:45: /User/migrations/__pycache__/__init__.cpython-36.pyc: Conflict: New files that differ
+2019-05-30 10:03:45: /User/migrations/__pycache__/__init__.cpython-37.pyc: Conflict: New files that differ
+2019-05-30 10:03:45: /User/models.py: Conflict: New files that differ
+2019-05-30 10:03:45: /User/tests.py: Conflict: New files that differ
+2019-05-30 10:03:45: /User/views.py: Conflict: New files that differ
+2019-05-30 10:03:45: Analyze has finished with Conflicts. Resolve Conflicts by selecting the correct sync direction, then click Sync
+2019-05-30 10:03:45: Changes: 237, Conflicts: 237, CopyTime: 0, FixState: 0, Errors: 0, All: 375
+2019-05-30 10:03:45: -- Analysis Complete. Time 00:00:07, Speed: 53 files/s
+2019-05-30 10:03:45: 
+2019-05-30 10:04:24: == Sync Started by User Command
+2019-05-30 10:04:24: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/COMMIT_EDITMSG' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/COMMIT_EDITMSG' (11) (User Action)
+2019-05-30 10:04:24: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/config' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/config' (112) (User Action)
+2019-05-30 10:04:24: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/description' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/description' (73) (User Action)
+2019-05-30 10:04:24: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/HEAD' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/HEAD' (23) (User Action)
+2019-05-30 10:04:24: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/hooks/applypatch-msg.sample' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/hooks/applypatch-msg.sample' (478) (User Action)
+2019-05-30 10:04:24: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/hooks/commit-msg.sample' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/hooks/commit-msg.sample' (896) (User Action)
+2019-05-30 10:04:25: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/hooks/fsmonitor-watchman.sample' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/hooks/fsmonitor-watchman.sample' (3,327) (User Action)
+2019-05-30 10:04:25: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/hooks/post-update.sample' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/hooks/post-update.sample' (189) (User Action)
+2019-05-30 10:04:25: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/hooks/pre-applypatch.sample' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/hooks/pre-applypatch.sample' (424) (User Action)
+2019-05-30 10:04:25: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/hooks/pre-commit.sample' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/hooks/pre-commit.sample' (1,642) (User Action)
+2019-05-30 10:04:25: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/hooks/pre-push.sample' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/hooks/pre-push.sample' (1,348) (User Action)
+2019-05-30 10:04:25: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/hooks/pre-rebase.sample' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/hooks/pre-rebase.sample' (4,898) (User Action)
+2019-05-30 10:04:25: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/hooks/pre-receive.sample' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/hooks/pre-receive.sample' (544) (User Action)
+2019-05-30 10:04:25: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/hooks/prepare-commit-msg.sample' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/hooks/prepare-commit-msg.sample' (1,492) (User Action)
+2019-05-30 10:04:25: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/hooks/update.sample' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/hooks/update.sample' (3,610) (User Action)
+2019-05-30 10:04:25: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/index' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/index' (9,788) (User Action)
+2019-05-30 10:04:26: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/info/exclude' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/info/exclude' (240) (User Action)
+2019-05-30 10:04:26: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/logs/HEAD' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/logs/HEAD' (172) (User Action)
+2019-05-30 10:04:26: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/logs/refs/heads/master' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/logs/refs/heads/master' (172) (User Action)
+2019-05-30 10:04:26: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/01/40c922966a6c1ce21280d0c7accda9a99ba02b' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/01/40c922966a6c1ce21280d0c7accda9a99ba02b' (95) (User Action)
+2019-05-30 10:04:26: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/02/8c32d7dc4dc50eeed5fe02766112f64feec600' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/02/8c32d7dc4dc50eeed5fe02766112f64feec600' (440) (User Action)
+2019-05-30 10:04:26: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/02/db75feecca51d4b9a9a7085a6232fc8f00edbf' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/02/db75feecca51d4b9a9a7085a6232fc8f00edbf' (258,550) (User Action)
+2019-05-30 10:04:27: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/04/a9cbc0d4f1041da0d2f8fe0f968dbcdde79feb' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/04/a9cbc0d4f1041da0d2f8fe0f968dbcdde79feb' (50,454) (User Action)
+2019-05-30 10:04:27: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/06/d64da4cb217106325cee86c59801e32f07122c' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/06/d64da4cb217106325cee86c59801e32f07122c' (399) (User Action)
+2019-05-30 10:04:27: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/07/e6f3ab05bad67006bb8240757e204a8a6a064e' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/07/e6f3ab05bad67006bb8240757e204a8a6a064e' (305) (User Action)
+2019-05-30 10:04:27: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/09/e265c54e22edacade3a354da16914f3429f9f6' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/09/e265c54e22edacade3a354da16914f3429f9f6' (53) (User Action)
+2019-05-30 10:04:27: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/0b/a793f9a919f3681aff7834c9caf6ef42afe72f' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/0b/a793f9a919f3681aff7834c9caf6ef42afe72f' (184) (User Action)
+2019-05-30 10:04:27: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/0f/d7fbf14aca68eed929f8f23a70a256e46a8525' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/0f/d7fbf14aca68eed929f8f23a70a256e46a8525' (156) (User Action)
+2019-05-30 10:04:27: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/10/66d084012b15534ec474d765731527af13694d' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/10/66d084012b15534ec474d765731527af13694d' (244) (User Action)
+2019-05-30 10:04:28: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/14/cacf01089d38b61e94b10665624368b00593e8' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/14/cacf01089d38b61e94b10665624368b00593e8' (534) (User Action)
+2019-05-30 10:04:28: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/17/43d1998ee4ec183a0b025cd0d7453e6fab7475' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/17/43d1998ee4ec183a0b025cd0d7453e6fab7475' (185) (User Action)
+2019-05-30 10:04:28: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/17/e13d8053e4755c8ff7e8f1ca8c2deb30c528ca' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/17/e13d8053e4755c8ff7e8f1ca8c2deb30c528ca' (133) (User Action)
+2019-05-30 10:04:28: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/19/33f1ead8ace5568c33bb05d4f039d110d9c1e0' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/19/33f1ead8ace5568c33bb05d4f039d110d9c1e0' (151) (User Action)
+2019-05-30 10:04:28: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/1a/92db800f75780dbb485d0d078b30bddc06e638' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/1a/92db800f75780dbb485d0d078b30bddc06e638' (263) (User Action)
+2019-05-30 10:04:28: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/1a/a673960069f3865b63f73460532e15fe32e4ca' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/1a/a673960069f3865b63f73460532e15fe32e4ca' (129) (User Action)
+2019-05-30 10:04:28: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/1a/f4306768259ca9b2b2306ce5450cb0d33d9a54' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/1a/f4306768259ca9b2b2306ce5450cb0d33d9a54' (86) (User Action)
+2019-05-30 10:04:28: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/1f/b213ef54f508a14efd26f0d8931aa18fbdcb18' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/1f/b213ef54f508a14efd26f0d8931aa18fbdcb18' (153) (User Action)
+2019-05-30 10:04:28: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/20/568765777f6a3c69f3831614e6296b3eca0ce2' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/20/568765777f6a3c69f3831614e6296b3eca0ce2' (55) (User Action)
+2019-05-30 10:04:28: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/22/fef2b97fb4709726c71bedbde5ae905ad1fc74' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/22/fef2b97fb4709726c71bedbde5ae905ad1fc74' (214) (User Action)
+2019-05-30 10:04:29: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/26/39846cb02ade1b63d1bf076ff122685fb20de7' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/26/39846cb02ade1b63d1bf076ff122685fb20de7' (141) (User Action)
+2019-05-30 10:04:29: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/26/d56e939f8c1717af69385168706703b37fc159' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/26/d56e939f8c1717af69385168706703b37fc159' (130) (User Action)
+2019-05-30 10:04:29: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/2e/533566c7cbfdd9223a5c59b797042bd5afe715' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/2e/533566c7cbfdd9223a5c59b797042bd5afe715' (207) (User Action)
+2019-05-30 10:04:29: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/33/2a13ff29324dd46c24768dbdcbd48d470d4457' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/33/2a13ff29324dd46c24768dbdcbd48d470d4457' (93) (User Action)
+2019-05-30 10:04:29: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/33/9218aa98c2e467b1c9ea8cb290cda1ad90b8bd' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/33/9218aa98c2e467b1c9ea8cb290cda1ad90b8bd' (141) (User Action)
+2019-05-30 10:04:29: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/3b/37c919ed39e47dac76c27dd29e3142043ad910' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/3b/37c919ed39e47dac76c27dd29e3142043ad910' (340) (User Action)
+2019-05-30 10:04:29: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/3b/e5e3135651df43393c4da7c334570570d199d7' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/3b/e5e3135651df43393c4da7c334570570d199d7' (289) (User Action)
+2019-05-30 10:04:29: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/3d/219391bc6053c73f56ff7fbc1d786bf31f07db' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/3d/219391bc6053c73f56ff7fbc1d786bf31f07db' (95) (User Action)
+2019-05-30 10:04:29: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/45/4a54560b44b1b23625fa6e02c58a143e684618' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/45/4a54560b44b1b23625fa6e02c58a143e684618' (311) (User Action)
+2019-05-30 10:04:30: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/46/5c891c339831f67556296e5f0e34ffb8ac01c8' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/46/5c891c339831f67556296e5f0e34ffb8ac01c8' (76) (User Action)
+2019-05-30 10:04:30: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/47/57e96fe7447bf92a98b30e6d4b5e381c38420b' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/47/57e96fe7447bf92a98b30e6d4b5e381c38420b' (138) (User Action)
+2019-05-30 10:04:30: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/48/143d8f97a1cb0f7aa6a63d67ef871d233a1f80' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/48/143d8f97a1cb0f7aa6a63d67ef871d233a1f80' (181) (User Action)
+2019-05-30 10:04:30: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/4a/63120976fd18bfd7f401ba913932c505ca7e9a' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/4a/63120976fd18bfd7f401ba913932c505ca7e9a' (117) (User Action)
+2019-05-30 10:04:30: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/4b/86e85598e58020a240b515a7a51247f3aea180' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/4b/86e85598e58020a240b515a7a51247f3aea180' (151) (User Action)
+2019-05-30 10:04:30: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/4c/2f0f4c874665336c3589dc77d9c4243230eacf' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/4c/2f0f4c874665336c3589dc77d9c4243230eacf' (173) (User Action)
+2019-05-30 10:04:30: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/4f/8bb5620f43b51f4ea1f80fca69b21073341a46' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/4f/8bb5620f43b51f4ea1f80fca69b21073341a46' (263) (User Action)
+2019-05-30 10:04:30: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/52/894eeaed253bf308e20521f7d91ad61717df2b' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/52/894eeaed253bf308e20521f7d91ad61717df2b' (276) (User Action)
+2019-05-30 10:04:31: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/58/6e23665396b486d1bc56ee32ad1a485c8738ef' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/58/6e23665396b486d1bc56ee32ad1a485c8738ef' (258,478) (User Action)
+2019-05-30 10:04:31: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/59/44121a3c8abdc583237ff2a4b9cdb809d91ee8' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/59/44121a3c8abdc583237ff2a4b9cdb809d91ee8' (353) (User Action)
+2019-05-30 10:04:31: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/59/b73bd42a7aaea3a5128cff823815b932ba8ce0' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/59/b73bd42a7aaea3a5128cff823815b932ba8ce0' (253) (User Action)
+2019-05-30 10:04:31: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/5c/291ee2054ea5b325f89e45a83dd13c7ae4b4a9' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/5c/291ee2054ea5b325f89e45a83dd13c7ae4b4a9' (143) (User Action)
+2019-05-30 10:04:32: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/5e/6246c546e0e67e9de33df7c9a5f3bee04a8ad9' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/5e/6246c546e0e67e9de33df7c9a5f3bee04a8ad9' (156) (User Action)
+2019-05-30 10:04:32: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/60/e28abb5c2c5c9a147f132d7282e1c520a8c162' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/60/e28abb5c2c5c9a147f132d7282e1c520a8c162' (709) (User Action)
+2019-05-30 10:04:32: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/61/7c98e43024a0ddbba7f8d6e7f5064d043730ce' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/61/7c98e43024a0ddbba7f8d6e7f5064d043730ce' (153) (User Action)
+2019-05-30 10:04:32: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/67/067004918c2dbb4a25f64f5cf971abad2aa880' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/67/067004918c2dbb4a25f64f5cf971abad2aa880' (177) (User Action)
+2019-05-30 10:04:32: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/69/f3de47937cdc31783eb3d98ff3839e5e31ddc7' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/69/f3de47937cdc31783eb3d98ff3839e5e31ddc7' (536) (User Action)
+2019-05-30 10:04:32: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/6c/1c5e0ab935bebdba24418c15f76ec8a4a01fce' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/6c/1c5e0ab935bebdba24418c15f76ec8a4a01fce' (6,606) (User Action)
+2019-05-30 10:04:33: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/6c/82c70fd26dc0bb05e638aeaca4ac28511ece99' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/6c/82c70fd26dc0bb05e638aeaca4ac28511ece99' (140) (User Action)
+2019-05-30 10:04:33: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/76/b20f079371fcea694978ec4a0fd0c1e1e3ad03' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/76/b20f079371fcea694978ec4a0fd0c1e1e3ad03' (215) (User Action)
+2019-05-30 10:04:33: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/77/066b6d29102a11b4adf19fca7eb6f8c2d7c218' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/77/066b6d29102a11b4adf19fca7eb6f8c2d7c218' (93) (User Action)
+2019-05-30 10:04:33: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/7b/5c4a95723639b1b7c19fa1064b74bd56d5ebe4' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/7b/5c4a95723639b1b7c19fa1064b74bd56d5ebe4' (375) (User Action)
+2019-05-30 10:04:33: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/7c/f36890c74f67d59316d13e6d411347ede72546' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/7c/f36890c74f67d59316d13e6d411347ede72546' (311) (User Action)
+2019-05-30 10:04:33: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/82/14eb8ca39ab52e24563eeb972c47c7f0d545cd' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/82/14eb8ca39ab52e24563eeb972c47c7f0d545cd' (136) (User Action)
+2019-05-30 10:04:33: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/82/76f26d94718dce88a4ab12be22f603980d90fb' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/82/76f26d94718dce88a4ab12be22f603980d90fb' (88) (User Action)
+2019-05-30 10:04:33: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/86/2b8428b9e068428b1a4e8a38f94019008d8940' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/86/2b8428b9e068428b1a4e8a38f94019008d8940' (21) (User Action)
+2019-05-30 10:04:34: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/8a/ca8bb584fc0f64b950c683ac46bf012c09f3de' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/8a/ca8bb584fc0f64b950c683ac46bf012c09f3de' (709) (User Action)
+2019-05-30 10:04:34: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/8b/4fa81abf5e475c2058236169334e2a1212d2ce' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/8b/4fa81abf5e475c2058236169334e2a1212d2ce' (174) (User Action)
+2019-05-30 10:04:34: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/8c/9bf8e38724695d052d949705d2d3fa2d598e44' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/8c/9bf8e38724695d052d949705d2d3fa2d598e44' (341) (User Action)
+2019-05-30 10:04:34: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/8f/a507f68ebd49ea0ec6aeef0d4657abe949d765' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/8f/a507f68ebd49ea0ec6aeef0d4657abe949d765' (96) (User Action)
+2019-05-30 10:04:34: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/91/d55378c5281e247270e9a3b31de0df878655c8' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/91/d55378c5281e247270e9a3b31de0df878655c8' (103) (User Action)
+2019-05-30 10:04:34: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/93/aff72e1f30d59d114ada4388488fe8d663df4f' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/93/aff72e1f30d59d114ada4388488fe8d663df4f' (432) (User Action)
+2019-05-30 10:04:34: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/93/b32430b5dc8ff6a3b804ec29308a8b60c0b609' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/93/b32430b5dc8ff6a3b804ec29308a8b60c0b609' (177) (User Action)
+2019-05-30 10:04:34: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/97/3495505d5203141626330facd0469c7f96016a' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/97/3495505d5203141626330facd0469c7f96016a' (180) (User Action)
+2019-05-30 10:04:35: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/98/330256c8b6cfd21c77b8a7765dd3315c0e13d1' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/98/330256c8b6cfd21c77b8a7765dd3315c0e13d1' (1,341) (User Action)
+2019-05-30 10:04:35: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/9a/61bc703e7142ed230178ebb5d451a897339601' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/9a/61bc703e7142ed230178ebb5d451a897339601' (69) (User Action)
+2019-05-30 10:04:35: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/9a/e23933acef9df606dffd822cf367e0eb06e7b3' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/9a/e23933acef9df606dffd822cf367e0eb06e7b3' (346) (User Action)
+2019-05-30 10:04:35: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/9c/233b688a4479e971ceac6c14029418f67b73e1' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/9c/233b688a4479e971ceac6c14029418f67b73e1' (312) (User Action)
+2019-05-30 10:04:35: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/9d/7068f6db92bf199b557aeb0712aa053f5606d7' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/9d/7068f6db92bf199b557aeb0712aa053f5606d7' (175) (User Action)
+2019-05-30 10:04:35: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/9e/819295156f02e94e8f10fd53a55ad85082497c' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/9e/819295156f02e94e8f10fd53a55ad85082497c' (148) (User Action)
+2019-05-30 10:04:35: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/a2/1f0fadea18d4dfc789602dcd7116abb43558bc' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/a2/1f0fadea18d4dfc789602dcd7116abb43558bc' (143) (User Action)
+2019-05-30 10:04:35: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/a3/4be30d0a478a1e0da27f1598f60f15fd92e979' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/a3/4be30d0a478a1e0da27f1598f60f15fd92e979' (373) (User Action)
+2019-05-30 10:04:36: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/a3/93fda7bdd27df8ebcdfbe93d4c3fb89a9ac917' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/a3/93fda7bdd27df8ebcdfbe93d4c3fb89a9ac917' (1,368) (User Action)
+2019-05-30 10:04:36: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/a3/9afdbe6f2798d2f08a7798d2fd765bbb2a42fe' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/a3/9afdbe6f2798d2f08a7798d2fd765bbb2a42fe' (242) (User Action)
+2019-05-30 10:04:36: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/a5/0c32a03ecd563c431b79dbef992e55d5b80850' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/a5/0c32a03ecd563c431b79dbef992e55d5b80850' (263) (User Action)
+2019-05-30 10:04:36: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/a6/29acd3a0ae4df09c240c9beb2833ade0cf12b5' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/a6/29acd3a0ae4df09c240c9beb2833ade0cf12b5' (276) (User Action)
+2019-05-30 10:04:36: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/b1/28ec6b3cb28a0706b9e4003ad4ae6835f1f501' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/b1/28ec6b3cb28a0706b9e4003ad4ae6835f1f501' (154) (User Action)
+2019-05-30 10:04:36: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/b7/9c372a7b6adb9e55dd5a8a43c792df8c9ec17c' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/b7/9c372a7b6adb9e55dd5a8a43c792df8c9ec17c' (489) (User Action)
+2019-05-30 10:04:36: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/c1/8a1d5da4b75534efb9e1c18ed1fc6fd851a3ab' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/c1/8a1d5da4b75534efb9e1c18ed1fc6fd851a3ab' (306) (User Action)
+2019-05-30 10:04:37: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/c3/5b7ee13d3cc749ca9475f8a80aed0d5045d2cb' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/c3/5b7ee13d3cc749ca9475f8a80aed0d5045d2cb' (163) (User Action)
+2019-05-30 10:04:37: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/c4/c74197c38ea0bf1c0c2eeb83025f7e78d57a83' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/c4/c74197c38ea0bf1c0c2eeb83025f7e78d57a83' (100) (User Action)
+2019-05-30 10:04:37: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/ca/b045a0992f5360729f0b919419752f04a57446' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/ca/b045a0992f5360729f0b919419752f04a57446' (433) (User Action)
+2019-05-30 10:04:37: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/cb/217dc394b019101285cb263a1eef3a91b19106' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/cb/217dc394b019101285cb263a1eef3a91b19106' (134) (User Action)
+2019-05-30 10:04:37: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/d0/4c44f4af37d43d3bdd2dc46a6807675c1144b5' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/d0/4c44f4af37d43d3bdd2dc46a6807675c1144b5' (1,032) (User Action)
+2019-05-30 10:04:37: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/d2/4f7de23eed3cbb8a79eb39ca7856019aab0277' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/d2/4f7de23eed3cbb8a79eb39ca7856019aab0277' (91) (User Action)
+2019-05-30 10:04:37: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/d7/7852054d4d2dc09f24860fc94709f5bb72de89' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/d7/7852054d4d2dc09f24860fc94709f5bb72de89' (301) (User Action)
+2019-05-30 10:04:38: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/d8/c9ae3d51bd61a2e974538fde7e04319f767cfc' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/d8/c9ae3d51bd61a2e974538fde7e04319f767cfc' (435) (User Action)
+2019-05-30 10:04:38: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/db/6ed48908b0758aa35b72d91010d17d27ba0334' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/db/6ed48908b0758aa35b72d91010d17d27ba0334' (99) (User Action)
+2019-05-30 10:04:38: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/de/8bdc00eb2fed53494a534d48e400faa830dbd9' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/de/8bdc00eb2fed53494a534d48e400faa830dbd9' (75) (User Action)
+2019-05-30 10:04:38: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/de/9040fb286c36c86cc5feb3931cb0eee845bb0d' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/de/9040fb286c36c86cc5feb3931cb0eee845bb0d' (180) (User Action)
+2019-05-30 10:04:38: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/e6/9de29bb2d1d6434b8b29ae775ad8c2e48c5391' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/e6/9de29bb2d1d6434b8b29ae775ad8c2e48c5391' (15) (User Action)
+2019-05-30 10:04:38: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/e7/60a69e0c5af5f4ddd77fedd8844d87d30ff84e' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/e7/60a69e0c5af5f4ddd77fedd8844d87d30ff84e' (1,343) (User Action)
+2019-05-30 10:04:38: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/e8/43529f82eafda17dd7cf5c92f42072c1695c1e' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/e8/43529f82eafda17dd7cf5c92f42072c1695c1e' (89) (User Action)
+2019-05-30 10:04:38: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/ea/5d68b7c457cb7f92da9c00a5c4df77ace36cef' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/ea/5d68b7c457cb7f92da9c00a5c4df77ace36cef' (78) (User Action)
+2019-05-30 10:04:39: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/eb/e3b8a55515647b5b9b8f4a60e0ba3ba31d1e7d' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/eb/e3b8a55515647b5b9b8f4a60e0ba3ba31d1e7d' (75) (User Action)
+2019-05-30 10:04:39: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/f0/f81034c5306b3e949eb36253ef1d42b4837bb8' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/f0/f81034c5306b3e949eb36253ef1d42b4837bb8' (145) (User Action)
+2019-05-30 10:04:39: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/f0/ffae45392821dc96d2c167e97279fba5e4864a' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/f0/ffae45392821dc96d2c167e97279fba5e4864a' (258,556) (User Action)
+2019-05-30 10:04:39: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/f1/3ed9be90a027fdb379508d3562646a09ca3433' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/f1/3ed9be90a027fdb379508d3562646a09ca3433' (152) (User Action)
+2019-05-30 10:04:39: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/f1/be76a2dcaff4b2573d32b6bb02b421fb1ef8b0' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/f1/be76a2dcaff4b2573d32b6bb02b421fb1ef8b0' (306) (User Action)
+2019-05-30 10:04:39: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/f7/aba64446f24b1016e917ba437717df16a7c9e2' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/f7/aba64446f24b1016e917ba437717df16a7c9e2' (151) (User Action)
+2019-05-30 10:04:39: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/f9/64eca487b8d877dd07e817473bf0ce9eef9300' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/f9/64eca487b8d877dd07e817473bf0ce9eef9300' (158) (User Action)
+2019-05-30 10:04:40: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/fc/8d486e1f8b598a6bec4b603c85dbfb1e3968ed' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/fc/8d486e1f8b598a6bec4b603c85dbfb1e3968ed' (155) (User Action)
+2019-05-30 10:04:40: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/fd/18c6eac0dc9ffbdf025c31d136901350a0d9f2' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/fd/18c6eac0dc9ffbdf025c31d136901350a0d9f2' (71) (User Action)
+2019-05-30 10:04:40: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/objects/fe/cfceffa0db0eaf825b10bf6b6b9a65bf0dc728' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/objects/fe/cfceffa0db0eaf825b10bf6b6b9a65bf0dc728' (262) (User Action)
+2019-05-30 10:04:40: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.git/refs/heads/master' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.git/refs/heads/master' (41) (User Action)
+2019-05-30 10:04:41: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.vscode/ipch/73085160bc964ad6/DIY 2 -AVL Tree.ipch' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.vscode/ipch/73085160bc964ad6/DIY 2 -AVL Tree.ipch' (1,310,720) (User Action)
+2019-05-30 10:04:41: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.vscode/ipch/73085160bc964ad6/mmap_address.bin' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.vscode/ipch/73085160bc964ad6/mmap_address.bin' (8) (User Action)
+2019-05-30 10:04:42: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.vscode/ipch/ce0c54aefcc5d9fe/DIY-AVL tree.ipch' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.vscode/ipch/ce0c54aefcc5d9fe/DIY-AVL tree.ipch' (1,310,720) (User Action)
+2019-05-30 10:04:42: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.vscode/ipch/ce0c54aefcc5d9fe/mmap_address.bin' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.vscode/ipch/ce0c54aefcc5d9fe/mmap_address.bin' (8) (User Action)
+2019-05-30 10:04:43: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.vscode/ipch/ea20b81967fa9f97/AVL tree.ipch' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.vscode/ipch/ea20b81967fa9f97/AVL tree.ipch' (1,310,720) (User Action)
+2019-05-30 10:04:43: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.vscode/ipch/ea20b81967fa9f97/mmap_address.bin' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.vscode/ipch/ea20b81967fa9f97/mmap_address.bin' (8) (User Action)
+2019-05-30 10:04:43: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/.vscode/settings.json' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/.vscode/settings.json' (105) (User Action)
+2019-05-30 10:04:43: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/Base/__init__.py' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/Base/__init__.py' (0) (User Action)
+2019-05-30 10:04:43: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/Base/__pycache__/__init__.cpython-36.pyc' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/Base/__pycache__/__init__.cpython-36.pyc' (148) (User Action)
+2019-05-30 10:04:43: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/Base/__pycache__/__init__.cpython-37.pyc' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/Base/__pycache__/__init__.cpython-37.pyc' (145) (User Action)
+2019-05-30 10:04:43: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/Base/__pycache__/admin.cpython-36.pyc' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/Base/__pycache__/admin.cpython-36.pyc' (189) (User Action)
+2019-05-30 10:04:43: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/Base/__pycache__/admin.cpython-37.pyc' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/Base/__pycache__/admin.cpython-37.pyc' (186) (User Action)
+2019-05-30 10:04:44: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/Base/__pycache__/models.cpython-36.pyc' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/Base/__pycache__/models.cpython-36.pyc' (186) (User Action)
+2019-05-30 10:04:44: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/Base/__pycache__/models.cpython-37.pyc' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/Base/__pycache__/models.cpython-37.pyc' (183) (User Action)
+2019-05-30 10:04:44: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/Base/__pycache__/views.cpython-36.pyc' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/Base/__pycache__/views.cpython-36.pyc' (387) (User Action)
+2019-05-30 10:04:44: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/Base/__pycache__/views.cpython-37.pyc' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/Base/__pycache__/views.cpython-37.pyc' (384) (User Action)
+2019-05-30 10:04:44: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/Base/admin.py' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/Base/admin.py' (66) (User Action)
+2019-05-30 10:04:44: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/Base/apps.py' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/Base/apps.py' (88) (User Action)
+2019-05-30 10:04:44: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/Base/migrations/__init__.py' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/Base/migrations/__init__.py' (0) (User Action)
+2019-05-30 10:04:44: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/Base/migrations/__pycache__/__init__.cpython-36.pyc' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/Base/migrations/__pycache__/__init__.cpython-36.pyc' (159) (User Action)
+2019-05-30 10:04:44: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/Base/migrations/__pycache__/__init__.cpython-37.pyc' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/Base/migrations/__pycache__/__init__.cpython-37.pyc' (156) (User Action)
+2019-05-30 10:04:44: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/Base/models.py' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/Base/models.py' (60) (User Action)
+2019-05-30 10:04:45: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/Base/templatetags/__init__.py' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/Base/templatetags/__init__.py' (0) (User Action)
+2019-05-30 10:04:45: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/Base/templatetags/__pycache__/__init__.cpython-36.pyc' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/Base/templatetags/__pycache__/__init__.cpython-36.pyc' (161) (User Action)
+2019-05-30 10:04:45: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/Base/templatetags/__pycache__/__init__.cpython-37.pyc' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/Base/templatetags/__pycache__/__init__.cpython-37.pyc' (158) (User Action)
+2019-05-30 10:04:45: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/Base/templatetags/__pycache__/active_tag.cpython-36.pyc' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/Base/templatetags/__pycache__/active_tag.cpython-36.pyc' (584) (User Action)
+2019-05-30 10:04:45: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/Base/templatetags/__pycache__/active_tag.cpython-37.pyc' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/Base/templatetags/__pycache__/active_tag.cpython-37.pyc' (581) (User Action)
+2019-05-30 10:04:45: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/Base/templatetags/active_tag.py' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/Base/templatetags/active_tag.py' (254) (User Action)
+2019-05-30 10:04:45: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/Base/tests.py' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/Base/tests.py' (63) (User Action)
+2019-05-30 10:04:45: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/Base/views.py' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/Base/views.py' (231) (User Action)
+2019-05-30 10:04:46: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/db.sqlite3' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/db.sqlite3' (172,032) (User Action)
+2019-05-30 10:04:46: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/Download/__init__.py' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/Download/__init__.py' (0) (User Action)
+2019-05-30 10:04:46: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/Download/__pycache__/__init__.cpython-36.pyc' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/Download/__pycache__/__init__.cpython-36.pyc' (152) (User Action)
+2019-05-30 10:04:46: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/Download/__pycache__/__init__.cpython-37.pyc' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/Download/__pycache__/__init__.cpython-37.pyc' (149) (User Action)
+2019-05-30 10:04:46: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/Download/__pycache__/admin.cpython-36.pyc' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/Download/__pycache__/admin.cpython-36.pyc' (193) (User Action)
+2019-05-30 10:04:46: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/Download/__pycache__/admin.cpython-37.pyc' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/Download/__pycache__/admin.cpython-37.pyc' (190) (User Action)
+2019-05-30 10:04:46: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/Download/__pycache__/models.cpython-36.pyc' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/Download/__pycache__/models.cpython-36.pyc' (190) (User Action)
+2019-05-30 10:04:46: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/Download/__pycache__/models.cpython-37.pyc' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/Download/__pycache__/models.cpython-37.pyc' (187) (User Action)
+2019-05-30 10:04:46: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/Download/__pycache__/views.cpython-36.pyc' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/Download/__pycache__/views.cpython-36.pyc' (411) (User Action)
+2019-05-30 10:04:46: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/Download/__pycache__/views.cpython-37.pyc' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/Download/__pycache__/views.cpython-37.pyc' (408) (User Action)
+2019-05-30 10:04:47: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/Download/admin.py' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/Download/admin.py' (66) (User Action)
+2019-05-30 10:04:47: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/Download/apps.py' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/Download/apps.py' (96) (User Action)
+2019-05-30 10:04:47: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/Download/migrations/__init__.py' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/Download/migrations/__init__.py' (0) (User Action)
+2019-05-30 10:04:47: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/Download/migrations/__pycache__/__init__.cpython-36.pyc' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/Download/migrations/__pycache__/__init__.cpython-36.pyc' (163) (User Action)
+2019-05-30 10:04:47: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/Download/migrations/__pycache__/__init__.cpython-37.pyc' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/Download/migrations/__pycache__/__init__.cpython-37.pyc' (160) (User Action)
+2019-05-30 10:04:47: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/Download/models.py' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/Download/models.py' (60) (User Action)
+2019-05-30 10:04:47: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/Download/tests.py' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/Download/tests.py' (63) (User Action)
+2019-05-30 10:04:47: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/Download/views.py' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/Download/views.py' (225) (User Action)
+2019-05-30 10:04:47: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/manage.py' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/manage.py' (647) (User Action)
+2019-05-30 10:04:47: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/Report/__init__.py' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/Report/__init__.py' (0) (User Action)
+2019-05-30 10:04:48: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/Report/__pycache__/__init__.cpython-36.pyc' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/Report/__pycache__/__init__.cpython-36.pyc' (150) (User Action)
+2019-05-30 10:04:48: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/Report/__pycache__/__init__.cpython-37.pyc' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/Report/__pycache__/__init__.cpython-37.pyc' (147) (User Action)
+2019-05-30 10:04:48: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/Report/__pycache__/settings.cpython-36.pyc' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/Report/__pycache__/settings.cpython-36.pyc' (2,501) (User Action)
+2019-05-30 10:04:48: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/Report/__pycache__/settings.cpython-37.pyc' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/Report/__pycache__/settings.cpython-37.pyc' (2,493) (User Action)
+2019-05-30 10:04:48: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/Report/__pycache__/urls.cpython-36.pyc' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/Report/__pycache__/urls.cpython-36.pyc' (1,296) (User Action)
+2019-05-30 10:04:48: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/Report/__pycache__/urls.cpython-37.pyc' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/Report/__pycache__/urls.cpython-37.pyc' (1,293) (User Action)
+2019-05-30 10:04:48: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/Report/__pycache__/wsgi.cpython-36.pyc' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/Report/__pycache__/wsgi.cpython-36.pyc' (551) (User Action)
+2019-05-30 10:04:48: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/Report/__pycache__/wsgi.cpython-37.pyc' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/Report/__pycache__/wsgi.cpython-37.pyc' (548) (User Action)
+2019-05-30 10:04:48: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/Report/settings.py' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/Report/settings.py' (3,621) (User Action)
+2019-05-30 10:04:48: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/Report/urls.py' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/Report/urls.py' (1,150) (User Action)
+2019-05-30 10:04:48: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/Report/wsgi.py' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/Report/wsgi.py' (405) (User Action)
+2019-05-30 10:04:49: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/static/css/menu.css' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/static/css/menu.css' (2,986) (User Action)
+2019-05-30 10:04:49: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/static/images/grey.png' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/static/images/grey.png' (50,568) (User Action)
+2019-05-30 10:04:49: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/System/__init__.py' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/System/__init__.py' (0) (User Action)
+2019-05-30 10:04:49: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/System/__pycache__/__init__.cpython-36.pyc' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/System/__pycache__/__init__.cpython-36.pyc' (150) (User Action)
+2019-05-30 10:04:49: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/System/__pycache__/__init__.cpython-37.pyc' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/System/__pycache__/__init__.cpython-37.pyc' (147) (User Action)
+2019-05-30 10:04:49: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/System/__pycache__/admin.cpython-36.pyc' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/System/__pycache__/admin.cpython-36.pyc' (269) (User Action)
+2019-05-30 10:04:49: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/System/__pycache__/admin.cpython-37.pyc' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/System/__pycache__/admin.cpython-37.pyc' (266) (User Action)
+2019-05-30 10:04:49: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/System/__pycache__/models.cpython-36.pyc' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/System/__pycache__/models.cpython-36.pyc' (490) (User Action)
+2019-05-30 10:04:49: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/System/__pycache__/models.cpython-37.pyc' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/System/__pycache__/models.cpython-37.pyc' (487) (User Action)
+2019-05-30 10:04:50: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/System/__pycache__/views.cpython-36.pyc' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/System/__pycache__/views.cpython-36.pyc' (449) (User Action)
+2019-05-30 10:04:50: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/System/__pycache__/views.cpython-37.pyc' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/System/__pycache__/views.cpython-37.pyc' (446) (User Action)
+2019-05-30 10:04:50: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/System/admin.py' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/System/admin.py' (137) (User Action)
+2019-05-30 10:04:50: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/System/apps.py' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/System/apps.py' (92) (User Action)
+2019-05-30 10:04:50: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/System/migrations/0001_initial.py' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/System/migrations/0001_initial.py' (668) (User Action)
+2019-05-30 10:04:50: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/System/migrations/__init__.py' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/System/migrations/__init__.py' (0) (User Action)
+2019-05-30 10:04:50: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/System/migrations/__pycache__/0001_initial.cpython-36.pyc' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/System/migrations/__pycache__/0001_initial.cpython-36.pyc' (738) (User Action)
+2019-05-30 10:04:50: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/System/migrations/__pycache__/0001_initial.cpython-37.pyc' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/System/migrations/__pycache__/0001_initial.cpython-37.pyc' (735) (User Action)
+2019-05-30 10:04:50: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/System/migrations/__pycache__/__init__.cpython-36.pyc' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/System/migrations/__pycache__/__init__.cpython-36.pyc' (161) (User Action)
+2019-05-30 10:04:51: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/System/migrations/__pycache__/__init__.cpython-37.pyc' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/System/migrations/__pycache__/__init__.cpython-37.pyc' (158) (User Action)
+2019-05-30 10:04:51: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/System/models.py' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/System/models.py' (330) (User Action)
+2019-05-30 10:04:51: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/System/tests.py' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/System/tests.py' (63) (User Action)
+2019-05-30 10:04:51: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/System/views.py' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/System/views.py' (218) (User Action)
+2019-05-30 10:04:51: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/templates/download.html' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/templates/download.html' (79) (User Action)
+2019-05-30 10:04:51: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/templates/footer.html' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/templates/footer.html' (450) (User Action)
+2019-05-30 10:04:51: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/templates/Header.html' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/templates/Header.html' (910) (User Action)
+2019-05-30 10:04:51: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/templates/Home.html' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/templates/Home.html' (92) (User Action)
+2019-05-30 10:04:51: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/templates/Home_content.html' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/templates/Home_content.html' (222) (User Action)
+2019-05-30 10:04:51: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/templates/Register.html' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/templates/Register.html' (273) (User Action)
+2019-05-30 10:04:51: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/templates/Update_log.html' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/templates/Update_log.html' (477) (User Action)
+2019-05-30 10:04:52: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/templates/Verification_letter.html' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/templates/Verification_letter.html' (379) (User Action)
+2019-05-30 10:04:52: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/User/__init__.py' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/User/__init__.py' (0) (User Action)
+2019-05-30 10:04:52: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/User/__pycache__/__init__.cpython-36.pyc' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/User/__pycache__/__init__.cpython-36.pyc' (148) (User Action)
+2019-05-30 10:04:52: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/User/__pycache__/__init__.cpython-37.pyc' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/User/__pycache__/__init__.cpython-37.pyc' (145) (User Action)
+2019-05-30 10:04:52: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/User/__pycache__/admin.cpython-36.pyc' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/User/__pycache__/admin.cpython-36.pyc' (259) (User Action)
+2019-05-30 10:04:52: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/User/__pycache__/admin.cpython-37.pyc' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/User/__pycache__/admin.cpython-37.pyc' (256) (User Action)
+2019-05-30 10:04:52: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/User/__pycache__/models.cpython-36.pyc' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/User/__pycache__/models.cpython-36.pyc' (785) (User Action)
+2019-05-30 10:04:52: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/User/__pycache__/models.cpython-37.pyc' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/User/__pycache__/models.cpython-37.pyc' (658) (User Action)
+2019-05-30 10:04:52: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/User/__pycache__/views.cpython-36.pyc' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/User/__pycache__/views.cpython-36.pyc' (2,722) (User Action)
+2019-05-30 10:04:53: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/User/__pycache__/views.cpython-37.pyc' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/User/__pycache__/views.cpython-37.pyc' (2,551) (User Action)
+2019-05-30 10:04:53: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/User/admin.py' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/User/admin.py' (88) (User Action)
+2019-05-30 10:04:53: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/User/apps.py' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/User/apps.py' (83) (User Action)
+2019-05-30 10:04:53: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/User/migrations/0001_initial.py' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/User/migrations/0001_initial.py' (838) (User Action)
+2019-05-30 10:04:53: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/User/migrations/0002_remove_user_uid.py' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/User/migrations/0002_remove_user_uid.py' (307) (User Action)
+2019-05-30 10:04:53: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/User/migrations/__init__.py' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/User/migrations/__init__.py' (0) (User Action)
+2019-05-30 10:04:53: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/User/migrations/__pycache__/0001_initial.cpython-36.pyc' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/User/migrations/__pycache__/0001_initial.cpython-36.pyc' (839) (User Action)
+2019-05-30 10:04:53: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/User/migrations/__pycache__/0001_initial.cpython-37.pyc' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/User/migrations/__pycache__/0001_initial.cpython-37.pyc' (836) (User Action)
+2019-05-30 10:04:53: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/User/migrations/__pycache__/0002_remove_user_uid.cpython-36.pyc' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/User/migrations/__pycache__/0002_remove_user_uid.cpython-36.pyc' (506) (User Action)
+2019-05-30 10:04:54: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/User/migrations/__pycache__/0002_remove_user_uid.cpython-37.pyc' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/User/migrations/__pycache__/0002_remove_user_uid.cpython-37.pyc' (493) (User Action)
+2019-05-30 10:04:54: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/User/migrations/__pycache__/__init__.cpython-36.pyc' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/User/migrations/__pycache__/__init__.cpython-36.pyc' (159) (User Action)
+2019-05-30 10:04:54: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/User/migrations/__pycache__/__init__.cpython-37.pyc' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/User/migrations/__pycache__/__init__.cpython-37.pyc' (156) (User Action)
+2019-05-30 10:04:54: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/User/models.py' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/User/models.py' (512) (User Action)
+2019-05-30 10:04:54: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/User/tests.py' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/User/tests.py' (60) (User Action)
+2019-05-30 10:04:54: Copy Over 'D:/ProgrammingLanguagePractice/Django/Report/User/views.py' -> 'sftp://linux5.csie.ntu.edu.tw/nfs/undergrad/07/b07902001/Django/Report/User/views.py' (2,703) (User Action)
+2019-05-30 10:04:54: == Sync Complete. Time: 00:00:31, Speed: 215 KB/s, OK: 237, Errors: 0
+2019-05-30 10:04:54: 

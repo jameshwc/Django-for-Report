@@ -13,6 +13,7 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
+# BASE_DIR = '/home/student/07/b07902001/Django/Report/'
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
@@ -25,9 +26,16 @@ SECRET_KEY = 'n0upjp0^o0@@x*a2@kiiyg6sn7=m(^fd6asilbs^_z5vkn8uq5'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+        'jameshsu.westus2.cloudapp.azure.com',
+        'linux1.csie.org',
+        'linux5.csie.org',
+        'linux12.csie.org',
+        'localhost'
+        ]
 
-
+MEDIA_ROOT = os.path.realpath(os.path.join(BASE_DIR, 'media'))
+MEDIA_URL = '/media/'
 # Application definition
 
 INSTALLED_APPS = [
@@ -37,16 +45,18 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.sites',
     'Base',
     'Download',
     'System',
+    'User',
 ]
-
+SITE_ID = 1
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
-    'django.middleware.csrf.CsrfViewMiddleware',
+  #  'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
@@ -108,7 +118,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Taipei'
 
 USE_I18N = True
 
@@ -121,9 +131,14 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR,'static')
+SESSION_ENGINE = "django.contrib.sessions.backends.db"
+
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
 )
 TEMPLATE_CONTEXT_PROCESSORS = (
     'django.core.context_processors.request',
 )
+SESSION_COOKIE_AGE = 1440
+SESSION_EXPIRE_AT_BROWSER_CLOSE = True

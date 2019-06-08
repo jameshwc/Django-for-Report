@@ -1,0 +1,10 @@
+{% include "Header.html" %}
+{% if fail == True %}
+<p> Registration Failed! There must be something wrong... </p>
+<p> Sorry for your inconvenience! </p>
+{% else %}
+<p> Registration Successfully! </p>
+{% endif %}
+<p> Redirecting to Homepage for 2 seconds...</p>
+<meta http-equiv="refresh" content="2;url=http://{{ request.META.HTTP_HOST }}" />
+{% include "Footer.html" %}
