@@ -7,7 +7,7 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('Download', '0005_download_file_filename'),
+        ('Download','0004_auto_20190531_0207'),
     ]
 
     operations = [

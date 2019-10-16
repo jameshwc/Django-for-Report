@@ -16,7 +16,7 @@ class Download_file(models.Model):
     last_modified = models.DateTimeField(auto_now=True)
     download_counter = models.IntegerField()
     name = models.CharField(max_length=30)
-    filename = models.CharField(max_length=30)
+    filename = models.CharField(max_length=30, default='NaN')
     
     def __str__(self):
         return self.name

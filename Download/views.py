@@ -9,8 +9,8 @@ from Report.views import IP_log
 
 def download(request):
     IP_log(request)
-    if request.method == 'GET' and 'filename' in request.GET:
-        if 'username' in request.session:
+    if 'username' in request.session:
+        if request.method == 'GET' and 'filename' in request.GET:
             filename = request.GET['filename']
             f = Download_file.objects.get(filename=filename)
             response = HttpResponse(f.file, content_type='application/octet-stream')
@@ -21,8 +21,9 @@ def download(request):
             log = download_log(filename=f, user=user)
             log.save()
             return response
-        not_login = True
-        return render_to_response("Download.html",locals(),RequestContext(request))    
+        files = Download_file.objects.all()
+        return render(request,"Download.html",locals())    
+    not_login = True
     # name_list, file_list = zip(*((file.name, file.file) for file in Download_file.objects.all()))
-    files = Download_file.objects.all()
-    return render_to_response("Download.html",locals(),RequestContext(request))
+    # return render_to_response("Download.html",locals(),RequestContext(request))
+    return render(request,"Download.html",locals())    

@@ -15,14 +15,15 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
-from Base.views import home
+from Base.views import home,blog,cool
 from Download.views import download
-from System.views import Update_log
-from User.views import Register, Verify, Login, Logout
+from System.views import Update_log, External_link
+from User.views import Register, Verify, Login, Logout, Renew_Password
 from django.views.static import serve
+from No2Name.views import No2Name
 
 urlpatterns = [
     path('home/',home),
@@ -33,6 +34,11 @@ urlpatterns = [
     path('register/', Register, None,'Register_url_name'),
     path('verify/', Verify),
     path('login/', Login, None, 'Login_url_name'),
-    path('logout/',Logout, None, 'Logout_url_name'),
-    path('static/',static),
+    path('logout/', Logout, None, 'Logout_url_name'),
+    path('static/', static),
+    path('blog/', blog,None,'Blog_url_name'),
+    path('cool/', cool, None, 'Cool_url_name'),
+    path('renew/', Renew_Password, None, 'Renew_Password_url_name'),
+    path('No2Name/', No2Name, None, 'No2Name_url_name'),
 ] 
+handler404 = 'Report.views.handler404'

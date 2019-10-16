@@ -2,10 +2,17 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>{% block title %} B07902001 {% endblock %} </title>
         {% load static %}
         <link rel=stylesheet type="text/css" href="{% static "css/menu.css" %}">
-        <script src="https://code.jquery.com/jquery-latest.js"></script>
+        <!-- <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css"> -->
+        <!-- <link rel="stylesheet" type="text/css" href={% static "css/bootstrap-custom.css" %}> -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script src="{% static "js/owa.js" %}"> </script>
+        <meta name="google-site-verification" content="YJqYt0BvKMq_fPKgyShyBOP4XSXX9Xs4IMqChmCr3RA" />
     </head>
     <body>
         {% url 'Home_url_name' as home %}
@@ -14,13 +21,20 @@
 	{% url 'Update_log_url_name' as updatelog %}
         {% url 'Login_url_name' as login %}
         {% url 'Logout_url_name' as logout %}
-        <div id="main">
+        {% url 'Blog_url_name' as blog %}
+        {% url 'Cool_url_name' as cool %}
+        {% url 'No2Name_url_name' as no2name %}
+        <div id="main" class="container">
         <div id="navigation">
-            <ul>
-                <li class="logo"> <h2> B07902001 </h2></li>
+            <ul class="nav nav-pills">
+                <li class="logo navbar-left"> <h2> B07902001 </h2></li>
                    <li>{% block nav-home %}<a href={{ home }}>Home</a>{% endblock %}</li>
                    <li>{% block nav-download %} <a href={{ download }} >Download</a>{% endblock %}</li>
-		   <li>{% block nav-log %} <a href= {{ updatelog }}>Log</a>{% endblock %}</li>
+		            <li>{% block nav-log %} <a href= {{ updatelog }}>Log</a>{% endblock %}</li>
+                    <li>{% block nav-no2name %} <a href = {{ no2name }}>No2Name</a>{% endblock %}</li>
+                    <li><a href = {{ blog }} target="_blank" onclick="javascript:alert('還非常原始的Blog，麻煩不要抱什麼期待XD\n暑假會慢慢寫新文和把一些舊文丟上來');">Blog </a></li>
+                    <li><a href = {{ cool }} target="_blank">Cool</a></li>
+                    <li><a href="telnet://bbs.jameshsu.csie.org">ptt10</a></li>
                    {% if request.session.username %}
                         <li class="user"><a href="{{ logout }}">{% block nav-logout %} Logout {% endblock %} </a> </li>
                         <li class="user"><a href="#">{% block nav-user %} {{ request.session.username }}{% endblock %}</a></li>

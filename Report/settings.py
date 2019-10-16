@@ -31,7 +31,8 @@ ALLOWED_HOSTS = [
         'linux1.csie.org',
         'linux5.csie.org',
         'linux12.csie.org',
-        'localhost'
+        'localhost',
+        'jameshsu.csie.org',
         ]
 
 MEDIA_ROOT = os.path.realpath(os.path.join(BASE_DIR, 'media'))
@@ -50,8 +51,9 @@ INSTALLED_APPS = [
     'Download',
     'System',
     'User',
+    'No2Name',
 ]
-SITE_ID = 1
+SITE_ID = 2
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -88,8 +90,12 @@ WSGI_APPLICATION = 'Report.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'mainpage',
+        'USER': 'mainpage',
+        'PASSWORD': 'Strong-Password',               # Not used with sqlite3.         
+        'HOST': '10.0.1.4',                           # Set to empty string for localhost. Not used with sqlite3.
+        'PORT': '',
     }
 }
 
@@ -134,11 +140,33 @@ STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR,'static')
 SESSION_ENGINE = "django.contrib.sessions.backends.db"
 
-STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'static'),
-)
+# STATICFILES_DIRS = (
+#     os.path.join(BASE_DIR, 'static'),
+# )
 TEMPLATE_CONTEXT_PROCESSORS = (
     'django.core.context_processors.request',
 )
 SESSION_COOKIE_AGE = 1440
 SESSION_EXPIRE_AT_BROWSER_CLOSE = True
+'''
+LOGGING = {     
+        'version': 1,
+        'disable_existing_loggers': False,
+        'handlers': {
+            'console': {
+                'class': 'logging.StreamHandler',
+                },        
+            'file': {
+                'level': 'DEBUG',
+                'class': 'logging.FileHandler',
+                'filename': 'log.django',
+                },
+            },
+        'loggers': {
+            'django': {
+                'handlers': ['console','file'],
+                'level': os.getenv('DJANGO_LOG_LEVEL', 'DEBUG'),
+                },
+            },
+        }
+'''

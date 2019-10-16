@@ -11,21 +11,10 @@ class Migration(migrations.Migration):
     ]
 
     operations = [
-        migrations.AddField(
-            model_name='user',
-            name='register_time',
-            field=models.DateTimeField(auto_now_add=True, default=django.utils.timezone.now),
-            preserve_default=False,
-        ),
-        migrations.AddField(
-            model_name='user',
-            name='verified_time',
-            field=models.DateTimeField(blank=True, null=True),
-        ),
         migrations.AlterField(
             model_name='user',
             name='email',
-            field=models.EmailField(max_length=254, unique=True),
+            field=models.EmailField(max_length=250, unique=True),
         ),
         migrations.AlterField(
             model_name='user',

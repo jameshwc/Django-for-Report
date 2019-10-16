@@ -6,7 +6,7 @@ from django.views.decorators.csrf import ensure_csrf_cookie
 from django.template import RequestContext
 from System.models import ip_log
 
-def IP_log(request):
+def IP_log(request,url=None):
     x_forwarded_for = request.META.get('HTTP_X_FORWARDED_FOR')
     if x_forwarded_for:
         ip = x_forwarded_for.split(',')[0]
@@ -16,6 +16,18 @@ def IP_log(request):
         user = User.objects.get(id=request.session['uid'])
     else:
         user = None
-    current_url = request.get_full_path()
-    data = ip_log(ip = ip, user = user,page=current_url)
+    if url is None:
+        url = request.get_full_path()
+    data = ip_log(ip = ip, user = user,page=url)
     data.save()
+
+def handler404(request, exception):
+    response = render(request, '404.html')
+    response.status_code = 404
+    return response
+
+
+def handler500(request):
+    response = render(request, '404.html')
+    response.status_code = 500
+    return response

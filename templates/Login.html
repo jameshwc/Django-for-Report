@@ -9,10 +9,12 @@
 <p> Redirecting to Homepage for 3 seconds...</p>
 <meta http-equiv="refresh" content="3;url=http://{{ request.META.HTTP_HOST }}" />
 {% else %}
+{% url 'Renew_Password_url_name' as renew %}
 <form method='POST'>
 {% csrf_token %}
 {{form.as_p}}
 <input type='submit' value='送出'>
+<a href={{renew}}  style="text-decoration:none;color:blue;font-size:small">忘記密碼？</a>
 </form>
 {% endif %}
 {% include "Footer.html" %}

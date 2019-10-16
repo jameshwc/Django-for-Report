@@ -10,6 +10,7 @@ class update_log(models.Model):
     detail = models.CharField(max_length = 200)
     def __str__(self):
         return self.detail
+
 class download_log(models.Model):
     date = models.DateTimeField(auto_now_add=True)
     filename = models.ForeignKey(Download_file, null=True, on_delete=models.SET_NULL)
@@ -20,3 +21,16 @@ class ip_log(models.Model):
     ip = models.GenericIPAddressField()
     user = models.ForeignKey(User,null=True, on_delete=models.SET_NULL)
     page = models.URLField()
+
+class no2name_querylog(models.Model):
+    student_info = (
+        ('cname', 'chinese_name'),
+        ('ename', 'english_name'),
+        ('dpt', 'department'),
+        ('gender', 'gender'),
+        ('no', 'student_no')
+    )
+    date = models.DateTimeField(auto_now_add=True)
+    query = models.CharField(max_length=50)
+    user = models.ForeignKey(User, null=True, on_delete=models.SET_NULL)
+    query_type = models.CharField(max_length=30, choices=student_info)
