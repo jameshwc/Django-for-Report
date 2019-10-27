@@ -23,5 +23,6 @@ build:
 
 deploy:
   script:
+    - docker build -t test-build .
     - docker rm -f test-deploy || true
     - docker run -d -p 0.0.0.0:8000:8000/tcp --name test-deploy test-build
