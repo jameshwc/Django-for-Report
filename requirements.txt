@@ -3,7 +3,7 @@ chardet==3.0.4
 Django==2.2.5
 idna==2.8
 mysqlclient==1.4.4
-pygobject==3.26.1
+pygobject==3.27.0
 python-apt==1.6.4
 pytz==2019.2
 requests==2.22.0
