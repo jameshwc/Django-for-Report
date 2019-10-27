@@ -34,7 +34,7 @@
                     <li>{% block nav-no2name %} <a href = {{ no2name }}>No2Name</a>{% endblock %}</li>
                     <li><a href = {{ blog }} target="_blank" onclick="javascript:alert('還非常原始的Blog，麻煩不要抱什麼期待XD\n暑假會慢慢寫新文和把一些舊文丟上來');">Blog </a></li>
                     <li><a href = {{ cool }} target="_blank">Cool</a></li>
-                    <li><a href="telnet://bbs.jameshsu.csie.org">ptt10</a></li>
+		    <li><a href="telnet://bbs.jameshsu.csie.org">ptt10</a></li>
                    {% if request.session.username %}
                         <li class="user"><a href="{{ logout }}">{% block nav-logout %} Logout {% endblock %} </a> </li>
                         <li class="user"><a href="#">{% block nav-user %} {{ request.session.username }}{% endblock %}</a></li>
