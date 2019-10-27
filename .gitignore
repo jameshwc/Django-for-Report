@@ -1,6 +1,6 @@
-__pycache__/*
-_gsdata_/*
-.vscode/*
+__pycache__/
+_gsdata_/
+.vscode/
 db.sqlite3
 *.log
 *.pot
