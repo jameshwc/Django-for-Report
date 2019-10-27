@@ -1,7 +1,7 @@
 FROM python:3.7
 
 ADD . .
-RUN apt-get -y install python-apt
+RUN apt-get update && apt-get install -y python-apt
 RUN pip3 install -r requirements.txt
 RUN python3 manage.py test
 EXPOSE 8000
