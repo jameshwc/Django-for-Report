@@ -32,4 +32,4 @@ deploy:
   stage: deploy
   script:
     - docker rm -f test-deploy || true
-    - docker run -d -p 0.0.0.0:8000:80/tcp --name test-deploy test-build
+    - docker run -itd -p 0.0.0.0:8000:80/tcp --name test-deploy test-build
