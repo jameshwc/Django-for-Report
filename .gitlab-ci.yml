@@ -13,11 +13,11 @@ cache:
   paths:
   - ~/.cache/pip/
 
-# test:
-#   script:
-#     - apt-get update && apt-get install -y python-apt unattended-upgrades libcairo2-dev
-#     - pip3 install -r requirements.txt
-#     - python3 manage.py test
+test:
+  script:
+    - apk add python3
+    - pip3 install -r requirements.txt
+    - python3 manage.py test
 
 deploy-build:
   variables:
