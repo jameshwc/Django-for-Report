@@ -24,7 +24,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'n0upjp0^o0@@x*a2@kiiyg6sn7=m(^fd6asilbs^_z5vkn8uq5'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = [
         'jameshsu.westus2.cloudapp.azure.com',
