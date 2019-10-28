@@ -21,5 +21,6 @@ RUN python3.6 get-pip.py
 RUN update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.6 1
 ENV PYTHONIOENCODING=utf-8
 RUN pip3 install -r requirements.txt
+RUN python3 manage.py test
 EXPOSE 8000
 ENTRYPOINT [ "python3", "manage.py", "runserver", "0.0.0.0:8000" ]
