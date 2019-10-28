@@ -33,6 +33,7 @@ ALLOWED_HOSTS = [
         'linux12.csie.org',
         '172.14.8.8',
         'jameshsu.csie.org',
+        'test-cd.jameshsu.csie.org',
         ]
 
 MEDIA_ROOT = os.path.realpath(os.path.join(BASE_DIR, 'media'))
