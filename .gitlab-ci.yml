@@ -26,10 +26,10 @@ deploy-build:
   variables:
     GIT_STRATEGY: fetch
   script:
-    - docker build -t test-build .
+    - docker build -t mainpage .
 
 deploy:
   stage: deploy
   script:
-    - docker rm -f test-deploy || true
-    - docker run -itd -p 0.0.0.0:8000:80/tcp --name test-deploy test-build
+    - docker rm -f mainpage || true
+    - docker run -itd -p 0.0.0.0:8000:80/tcp --name mainpage mainpage
