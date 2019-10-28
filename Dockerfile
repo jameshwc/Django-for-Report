@@ -18,6 +18,7 @@ RUN add-apt-repository ppa:jonathonf/python-3.6 && apt-get install -y python3.6 
     libcairo2-dev \
     wget
 RUN wget https://bootstrap.pypa.io/get-pip.py
+WORKDIR /mainpage/
 RUN python3.6 get-pip.py
 RUN update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.6 1
 RUN pip3 install -r requirements.txt
