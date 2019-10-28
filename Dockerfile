@@ -27,5 +27,5 @@ RUN mv mainpage.conf /etc/apache2/sites-available/
 RUN a2enmod wsgi
 RUN a2ensite mainpage
 RUN a2dissite 000-default.conf
-EXPOSE 8000
+EXPOSE 80
 ENTRYPOINT service apache2 restart && bash
