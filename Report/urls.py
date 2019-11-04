@@ -26,6 +26,7 @@ from django.views.static import serve
 from No2Name.views import No2Name
 from Report.views import login_by_ip
 
+
 urlpatterns = [
     path('home/',home),
     path('download/',download,None,'Download_url_name'),
@@ -41,5 +42,6 @@ urlpatterns = [
     path('cool/', cool, None, 'Cool_url_name'),
     path('renew/', Renew_Password, None, 'Renew_Password_url_name'),
     path('No2Name/', No2Name, None, 'No2Name_url_name'),
+    path('', include('api.urls')),
 ] 
 handler404 = 'Report.views.handler404'

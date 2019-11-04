@@ -18,7 +18,7 @@ def login_by_ip(view_func):
             ip = request.META.get('REMOTE_ADDR')
         if ip in ALLOWED_IP_BLOCKS:
             return view_func(request, *args, **kwargs)
-        raise Http404
+        raise Http404s
     return authorize
 
 
