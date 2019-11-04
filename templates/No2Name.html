@@ -41,31 +41,6 @@
             })
         })
     </script>
-    <!-- {% if has %}
-    <p>共有 {{rows}} 筆資料符合查詢結果！</p><br>
-        {% if toomuch %}
-        <p>你查詢的條件太廣泛了，請體諒這網站是用流量算錢的QQ</p>
-        {% else %}
-<table class="students">
-    <tr>
-        <th> 中文名字 </th>
-        <th> 學號 </th>
-        <th> 科系 </th>
-        <th> 性別 </th>
-    </tr>
-            {% for student in student_list %}
-    <tr>
-        <td> {{student.chinese_name}} </td>
-        <td> {{student.student_no}} </td>
-        <td> {{student.department}} </td>
-        <td> {{student.gender}} </td>
-    </tr>
-            {% endfor %}
-</table>
-        {% endif %}
-    {% elif query %}
-<p> 台大沒有這個人QQ </p>
-    {% endif %}
-{% endif %} -->
+{% endif %}
 
 {% include "Footer.html" %}
