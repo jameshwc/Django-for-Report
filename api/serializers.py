@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from Report.No2Name.models import ntu_student
+from No2Name.models import ntu_student
 
 class Ntu_Student_serializer(serializers.HyperlinkedModelSerializer):
     class Meta:
