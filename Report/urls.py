@@ -42,6 +42,6 @@ urlpatterns = [
     path('cool/', cool, None, 'Cool_url_name'),
     path('renew/', Renew_Password, None, 'Renew_Password_url_name'),
     path('No2Name/', No2Name, None, 'No2Name_url_name'),
-    path('', include('api.urls')),
+    path('api/', include('api.urls')),
 ] 
 handler404 = 'Report.views.handler404'
