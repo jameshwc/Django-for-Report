@@ -27,6 +27,7 @@ debug:
     refs:
       - backend-debug
   script:
+    - sed -i 's/DEBUG = False/DEBUG = True/' .\Report\settings.py
     - docker exec mainpage git pull
 update-static:
   stage: deploy
