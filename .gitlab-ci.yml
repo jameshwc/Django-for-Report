@@ -9,10 +9,6 @@ variables:
 before_script:
   - docker info
 
-cache:
-  paths:
-  - ~/.cache/pip/
-
 test:
   stage: test
   script:
@@ -21,6 +17,14 @@ test:
     - pip3 install pymysql
     - python3 manage.py test
 
+update-static:
+  stage: deploy
+  only:
+    refs:
+      - front-end
+  script:
+    - docker exec mainpage bash git pull
+    
 deploy-build:
   stage: deploy
   only:
@@ -33,6 +37,9 @@ deploy-build:
 
 deploy:
   stage: deploy
+  only:
+    refs:
+      - master
   script:
     - docker rm -f mainpage || true
     - docker run -itd -p 0.0.0.0:8000:80/tcp --name mainpage mainpage
