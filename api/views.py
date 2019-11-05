@@ -4,8 +4,10 @@ from django.http import JsonResponse
 from System.models import no2name_querylog
 from User.models import User
 from No2Name.models import ntu_student
+from Base.views import IP_log
 
 def get_students(request):
+    IP_log(request)
     query_types = ['cname', 'no', 'dpt', 'ename', 'gender']
     if request.method == 'GET' and 'username' in request.session \
         and 'query_type' in request.GET and 'query' in request.GET:
