@@ -36,5 +36,3 @@ deploy:
   script:
     - docker rm -f mainpage || true
     - docker run -itd -p 0.0.0.0:8000:80/tcp --name mainpage mainpage
-  dependencies:
-    - deploy-build
