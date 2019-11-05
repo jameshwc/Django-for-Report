@@ -11,10 +11,9 @@ def get_students(request):
     query_types = ['cname', 'no', 'dpt', 'ename', 'gender']
     if request.method == 'GET' and 'username' in request.session \
         and 'query_type' in request.GET and 'query' in request.GET:
-            error = []
             qtype = request.GET['query_type']
             if qtype not in query_types:
-                error.append('query_type not in query_types')
+                return JsonResponse({'error': 'query_type not in query_types'})
             query = request.GET['query']
             if qtype == 'cname':
                 student_list = ntu_student.objects.filter(chinese_name__icontains=query)
@@ -29,11 +28,10 @@ def get_students(request):
             else:
                 student_list = None
             if len(student_list) >= 1000:
-                error.append('the length of data is over 1000')
-                student_list = None
+                return JsonResponse({'error': 'the length of data is over 1000'})
             user = User.objects.get(id=request.session['uid'])            
             log = no2name_querylog(query=query, user=user, query_type=qtype)
             students = serializers.serialize('json', student_list)
-            return JsonResponse({'student': students, 'error': error})
+            return students
     else:
         return JsonResponse({'error': 'User not logged in or parameters are not matched'})
