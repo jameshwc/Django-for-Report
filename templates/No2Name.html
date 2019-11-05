@@ -24,7 +24,8 @@
     </table>
     <script>
         $(document).ready(function(){
-            $('#query_from').submit(function(){
+            $('#query_form').submit(function(e){
+                e.preventDefault();
                 var query_data = $(this).serialize();
                 $.getJSON('../api/get/students', query_data, process_students);
                 function process_students(data){
