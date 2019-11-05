@@ -7,7 +7,7 @@
 {% if not_login %}
 <p> You're not logged in! </p>
 {% else %}
-<form id="query_form" method='GET'>
+<form id="query_form">
         <select name="query_type" id="qtype1">
             <option value="cname">中文名字
             </option>
@@ -18,16 +18,17 @@
             </option>
         </select>
         <input type="text" name="query" maxlength="50" id="id_query1">
-        <input type="submit" value='送出' id="query_submit" onclick="return_student()">
+        <input type="submit" value='送出' id="query_submit">
     </form>
+    <table class="students">
+    </table>
     <script>
         $(document).ready(function(){
             $('#query_from').submit(function(){
                 var query_data = $(this).serialize();
-                $.getJSON('api/get/students', query_data, process_students);
+                $.getJSON('../api/get/students', query_data, process_students);
                 function process_students(data){
-                    var tb ='<table class="students"><tr>';
-                    tb += '<th> 中文名字 </th><th> 學號 </th><th> 科系 </th><th> 性別 </th></tr>';
+                    var tb ='<th> 中文名字 </th><th> 學號 </th><th> 科系 </th><th> 性別 </th></tr>';
                     $.each(data, function(student, student_info){
                         tb += '<tr><td>' + student_info.chinese_name + '</td>';
                         tb += '<td>' + student_info.student_no + '</td>';
@@ -35,7 +36,6 @@
                         tb += '<td>' + student_info.gender + '</td>';
                         tb += '</tr>';
                     })
-                    tb += '</table>';
                     $('.students').html(tb);
                 }
             })
