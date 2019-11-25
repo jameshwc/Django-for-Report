@@ -1,7 +1,7 @@
 pipeline:
 
   build:
-    image: docker:19.03.0-dind
+    image: docker:18.09-dind
     environment:
       - DOCKER_HOST=tcp://docker:2375
     commands:
@@ -13,7 +13,7 @@ pipeline:
   # step. Bonus we can see our container logs in the
   # build output.
   run:
-    image: docker:19.03.0-dind
+    image: docker:18.09-dind
     detach: true
     environment:
       - DOCKER_HOST=tcp://docker:2375
@@ -24,7 +24,7 @@ pipeline:
   # our container is running. Just for demo purposes,
   # not really needed.
   check_running:
-    image: docker:19.03.0-dind
+    image: docker:18.09-dind
     environment:
       - DOCKER_HOST=tcp://docker:2375
     commands:
@@ -41,7 +41,6 @@ pipeline:
 
 services:
   docker:
-    image: docker:19.03.0-dind
+    image: docker:18.09-dind
     privileged: true
-    DOCKER_TLS_CERTDIR:
     DOCKER_DRIVER: overlay2
