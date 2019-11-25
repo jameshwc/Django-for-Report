@@ -1,7 +1,6 @@
 kind: pipeline
+name: test
 image: jpetazzo/dind
-env:
-  - CI=drone
 script:
   - wrapdocker && docker images
   - docker info
