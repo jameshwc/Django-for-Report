@@ -8,7 +8,7 @@ platform:
 
 steps:
 - name: test
-  image: dflemstr/drone-dind
+  image: docker:19.03.0-dind
   commands:
   - docker info
   - apk --no-cache add --virtual build-dependencies build-base py-mysqldb gcc libc-dev libffi-dev mariadb-dev python3-dev
@@ -19,6 +19,9 @@ steps:
 services:
 - name: docker
   image: docker:19.03.0-dind
+  environment:
+  privileged: true
+  command: [ --storage-driver=overlay2]
 
 ---
 kind: pipeline
