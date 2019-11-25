@@ -1,0 +1,112 @@
+---
+kind: pipeline
+name: test
+
+platform:
+  os: linux
+  arch: amd64
+
+steps:
+- name: test
+  image: docker:19.03.0
+  commands:
+  - docker info
+  - apk --no-cache add --virtual build-dependencies build-base py-mysqldb gcc libc-dev libffi-dev mariadb-dev python3-dev
+  - pip3 install -r requirements.txt
+  - pip3 install pymysql
+  - python3 manage.py test
+
+services:
+- name: docker
+  image: docker:19.03.0-dind
+
+---
+kind: pipeline
+name: debug
+
+platform:
+  os: linux
+  arch: amd64
+
+steps:
+- name: debug
+  image: docker:19.03.0
+  commands:
+  - docker info
+  - docker exec mainpage git pull
+
+services:
+- name: docker
+  image: docker:19.03.0-dind
+
+depends_on:
+- test
+
+---
+kind: pipeline
+name: update-static
+
+platform:
+  os: linux
+  arch: amd64
+
+steps:
+- name: update-static
+  image: docker:19.03.0
+  commands:
+  - docker info
+  - docker exec mainpage bash git pull
+
+services:
+- name: docker
+  image: docker:19.03.0-dind
+
+depends_on:
+- debug
+
+---
+kind: pipeline
+name: deploy-build
+
+platform:
+  os: linux
+  arch: amd64
+
+steps:
+- name: deploy-build
+  image: docker:19.03.0
+  commands:
+  - docker info
+  - docker build -t mainpage .
+
+services:
+- name: docker
+  image: docker:19.03.0-dind
+
+depends_on:
+- update-static
+
+---
+kind: pipeline
+name: deploy
+
+platform:
+  os: linux
+  arch: amd64
+
+steps:
+- name: deploy
+  image: docker:19.03.0
+  commands:
+  - docker info
+  - docker rm -f mainpage || true
+  - docker run -itd -p 0.0.0.0:8000:80/tcp --name mainpage mainpage
+
+services:
+- name: docker
+  image: docker:19.03.0-dind
+
+depends_on:
+- deploy-build
+
+...
