@@ -8,7 +8,7 @@ platform:
 
 steps:
 - name: test
-  image: dflemstr/drone-dind
+  image: docker
   environment:
   # DOCKER_HOST: unix:///drone/docker.sock
   commands:
@@ -22,6 +22,8 @@ services:
 - name: docker
   image: docker:19.03.0-dind
   privileged: true
+  volumes:
+  - /var/run/docker.sock:/var/run/docker.sock
   command: [ '-H', 'unix:///drone/docker.sock']
 
 ---
