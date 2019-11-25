@@ -8,7 +8,7 @@ platform:
 
 steps:
 - name: test
-  image: docker:19.03.0-dind
+  image: dflemstr/drone-dind
   commands:
   - docker info
   - apk --no-cache add --virtual build-dependencies build-base py-mysqldb gcc libc-dev libffi-dev mariadb-dev python3-dev
