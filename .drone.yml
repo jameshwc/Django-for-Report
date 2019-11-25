@@ -4,9 +4,8 @@ pipeline:
     image: docker:19.03-dind
     environment:
       - DOCKER_HOST=tcp://docker:2375
-      - DOCKER_TLS_CERTDIR=
     commands:
-      - sleep 5
+      - sleep 15
       - docker ps
       - docker build -t hello-world .
   
@@ -45,3 +44,5 @@ services:
     image: docker:19.03-dind
     privileged: true
     DOCKER_DRIVER: overlay2
+    environment:
+      DOCKER_TLS_CERTDIR: ""
