@@ -23,8 +23,7 @@ services:
   image: docker:19.03.0-dind
   privileged: true
   command: [ '-H', 'unix:///drone/docker.sock']
-  volumes:
-  - /var/run/docker.sock:/var/run/docker.sock
+  volumes: /var/run/docker.sock:/var/run/docker.sock
 
 ---
 kind: pipeline
