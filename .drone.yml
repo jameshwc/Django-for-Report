@@ -37,7 +37,7 @@ steps:
 
 services:
 - name: docker
-  image: docker:19.03.0-dind
+  image: dflemstr/drone-dind
 
 depends_on:
 - test
