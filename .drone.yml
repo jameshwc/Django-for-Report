@@ -4,6 +4,7 @@ pipeline:
     image: docker:19.03.0-dind
     environment:
       - DOCKER_HOST=tcp://docker:2375
+      - DOCKER_TLS_CERTDIR=""
     commands:
       - sleep 15
       - docker ps
