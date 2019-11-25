@@ -1,4 +1,3 @@
-kind: pipeline
 pipeline:
   # this code will create a dummy Dockerfile. This is just
   # here so that our yaml file is self-contained.
@@ -25,3 +24,38 @@ pipeline:
       - sleep 5
       - docker ps
       - docker build -t hello-world .
+  
+  # start the container using a detached (non-blocking)
+  # step. Bonus we can see our container logs in the
+  # build output.
+  run:
+    image: docker:17.05.0-ce-dind
+    detach: true
+    environment:
+      - DOCKER_HOST=tcp://docker:2375
+    commands:
+      - docker run -p 8000:8000 hello-world
+
+  # this container just runs a docker ps to verify
+  # our container is running. Just for demo purposes,
+  # not really needed.
+  check_running:
+    image: docker:17.05.0-ce-dind
+    environment:
+      - DOCKER_HOST=tcp://docker:2375
+    commands:
+      - sleep 5
+      - docker ps
+
+  # curl the container to test it is up and running.
+  # notice that we use `docker:8000` since the container
+  # is running in the docker service container.
+  test:
+    image: golang # because I know it has curl installed
+    commands:
+      - curl -v http://docker:8000
+
+services:
+  docker:
+    image: docker:17.05.0-ce-dind
+    privileged: true
