@@ -8,6 +8,9 @@ pipeline:
       - sleep 15
       - docker ps
       - docker build -t hello-world .
+    volumes:
+    - name: dockersock
+      path: /var/run
   
   # start the container using a detached (non-blocking)
   # step. Bonus we can see our container logs in the
@@ -46,3 +49,11 @@ services:
     DOCKER_DRIVER: overlay2
     environment:
       DOCKER_TLS_CERTDIR: ""
+    volumes:
+    - name: dockersock
+      path: /var/run
+
+volumes:
+- name: dockersock
+  temp: {}
+
