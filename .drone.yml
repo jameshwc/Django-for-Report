@@ -21,11 +21,6 @@ steps:
   - name: dockersock
     path: /var/run/
 
-services:
-- name: docker
-  image: docker:19.03.0-dind
-  privileged: true
-  command: [ '-H', 'unix:///drone/docker.sock']
 
 ---
 kind: pipeline
