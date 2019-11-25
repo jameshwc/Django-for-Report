@@ -11,10 +11,6 @@ before_script:
 
 test:
   stage: test
-  only:
-    refs:
-      - master
-      - django*
   script:
     - apk --no-cache add --virtual build-dependencies build-base py-mysqldb gcc libc-dev libffi-dev mariadb-dev python3-dev
     - pip3 install -r requirements.txt
@@ -23,24 +19,15 @@ test:
 
 debug:
   stage: test
-  only:
-    refs:
-      - backend-debug
   script:
     - docker exec mainpage git pull
 update-static:
   stage: deploy
-  only:
-    refs:
-      - front-end
   script:
     - docker exec mainpage bash git pull
     
 deploy-build:
   stage: deploy
-  only:
-    refs:
-      - master
   variables:
     GIT_STRATEGY: fetch
   script:
@@ -48,9 +35,6 @@ deploy-build:
 
 deploy:
   stage: deploy
-  only:
-    refs:
-      - master
   script:
     - docker rm -f mainpage || true
     - docker run -itd -p 0.0.0.0:8000:80/tcp --name mainpage mainpage
