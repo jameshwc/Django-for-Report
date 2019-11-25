@@ -43,5 +43,5 @@ services:
   docker:
     image: docker:19.03.0-dind
     privileged: true
-    DOCKER_TLS_CERTDIR: ""
+    DOCKER_TLS_CERTDIR:
     DOCKER_DRIVER: overlay2
