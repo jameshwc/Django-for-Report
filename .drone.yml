@@ -1,23 +1,6 @@
 pipeline:
-  # this code will create a dummy Dockerfile. This is just
-  # here so that our yaml file is self-contained.
-  setup:
-    image: golang
-    commands:
-      - |
-        cat <<EOF > index.html
-        hello world
-        EOF
-      - |
-        cat <<EOF > Dockerfile
-        FROM busybox
-        ADD index.html /www/index.html
-        EXPOSE 8000
-        CMD httpd -p 8000 -h /www; tail -f /dev/null
-        EOF
-
   build:
-    image: docker:17.05.0-ce-dind
+    image: docker:19.03.0-ce-dind
     environment:
       - DOCKER_HOST=tcp://docker:2375
     commands:
