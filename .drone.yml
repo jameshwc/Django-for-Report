@@ -46,11 +46,4 @@ services:
     DOCKER_DRIVER: overlay2
     environment:
       DOCKER_TLS_CERTDIR: ""
-    volumes:
-    - name: dockersock
-      path: /var/run
-
-volumes:
-- name: dockersock
-  temp: {}
-
+    
