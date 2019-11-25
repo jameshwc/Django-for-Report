@@ -1,6 +1,7 @@
 pipeline:
+
   build:
-    image: docker:19.03-dind
+    image: docker:17.05.0-ce-dind
     environment:
       - DOCKER_HOST=tcp://docker:2375
     commands:
@@ -40,5 +41,5 @@ pipeline:
 
 services:
   docker:
-    image: docker:19.03-dind
+    image: docker:17.05.0-ce-dind
     privileged: true
