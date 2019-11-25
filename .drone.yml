@@ -52,14 +52,14 @@ platform:
 
 steps:
 - name: update-static
-  image: docker:19.03.0
+  image: dflemstr/drone-dind
   commands:
   - docker info
   - docker exec mainpage bash git pull
 
 services:
 - name: docker
-  image: docker:19.03.0-dind
+  image: dflemstr/drone-dind
 
 depends_on:
 - debug
@@ -74,14 +74,14 @@ platform:
 
 steps:
 - name: deploy-build
-  image: docker:19.03.0
+  image: dflemstr/drone-dind
   commands:
   - docker info
   - docker build -t mainpage .
 
 services:
 - name: docker
-  image: docker:19.03.0-dind
+  image: dflemstr/drone-dind
 
 depends_on:
 - update-static
@@ -96,7 +96,7 @@ platform:
 
 steps:
 - name: deploy
-  image: docker:19.03.0
+  image: dflemstr/drone-dind
   commands:
   - docker info
   - docker rm -f mainpage || true
@@ -104,7 +104,7 @@ steps:
 
 services:
 - name: docker
-  image: docker:19.03.0-dind
+  image: dflemstr/drone-dind
 
 depends_on:
 - deploy-build
