@@ -1,6 +1,6 @@
 pipeline:
   build:
-    image: docker:19.03.0-ce-dind
+    image: docker:19.03-dind
     environment:
       - DOCKER_HOST=tcp://docker:2375
     commands:
