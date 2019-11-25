@@ -6,3 +6,5 @@ db.sqlite3
 *.pot
 *.pyc
 .env
+log.django
+db.json
