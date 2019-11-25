@@ -8,9 +8,9 @@ platform:
 
 steps:
 - name: test
-  image: docker
+  image: docker:dind
   environment:
-  # DOCKER_HOST: unix:///drone/docker.sock
+      DOCKER_TLS_CERTDIR: ""
   commands:
   - docker info
   - apk --no-cache add --virtual build-dependencies build-base py-mysqldb gcc libc-dev libffi-dev mariadb-dev python3-dev
