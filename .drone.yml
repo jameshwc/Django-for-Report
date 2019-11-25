@@ -17,6 +17,8 @@ steps:
   - pip3 install -r requirements.txt
   - pip3 install pymysql
   - python3 manage.py test
+  volumes: 
+  - /var/run/docker.sock:/var/run/docker.sock
 
 services:
 - name: docker
