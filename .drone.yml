@@ -23,6 +23,7 @@ services:
     image: docker:dind
     privileged: true
     command: [ '-H', 'unix:///drone/docker.sock' ]
+
 ---
 kind: pipeline
 name: debug
