@@ -1,8 +1,6 @@
 kind: pipeline
 name: test
-steps:
-- name: debug
-  image: jpetazzo/dind
-  script:
-    - wrapdocker && docker images
-    - docker info
+image: docker:stable-dind
+priviliged: true
+commands:
+  - docker info
