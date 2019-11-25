@@ -17,14 +17,15 @@ steps:
   - pip3 install -r requirements.txt
   - pip3 install pymysql
   - python3 manage.py test
-  volumes: /var/run/docker.sock:/var/run/docker.sock
+  volumes:
+  - name: dockersock
+    path: /var/run/
 
 services:
 - name: docker
   image: docker:19.03.0-dind
   privileged: true
   command: [ '-H', 'unix:///drone/docker.sock']
-  volumes: /var/run/docker.sock:/var/run/docker.sock
 
 ---
 kind: pipeline
