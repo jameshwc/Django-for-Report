@@ -1,6 +1,8 @@
 kind: pipeline
 name: test
-image: jpetazzo/dind
-script:
-  - wrapdocker && docker images
-  - docker info
+steps:
+- name: debug
+  image: jpetazzo/dind
+  script:
+    - wrapdocker && docker images
+    - docker info
