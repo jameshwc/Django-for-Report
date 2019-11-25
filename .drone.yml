@@ -8,10 +8,9 @@ platform:
 
 steps:
 - name: test
-  image: docker:19.03.0-dind
+  image: docker
   environment:
-  privileged: true
-  command: [ --storage-driver=overlay2]
+    - DOCKER_HOST=unix:///drone/docker.sock
   commands:
   - docker info
   - apk --no-cache add --virtual build-dependencies build-base py-mysqldb gcc libc-dev libffi-dev mariadb-dev python3-dev
@@ -20,12 +19,10 @@ steps:
   - python3 manage.py test
 
 services:
-- name: docker
-  image: docker:19.03.0-dind
-  environment:
-  privileged: true
-  command: [ --storage-driver=overlay2]
-
+  docker:
+    image: docker:dind
+    privileged: true
+    command: [ '-H', 'unix:///drone/docker.sock' ]
 ---
 kind: pipeline
 name: debug
