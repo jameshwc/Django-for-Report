@@ -8,7 +8,7 @@ pipeline:
       - DOCKER_HOST=tcp://docker:2375
     commands:
       - sleep 15
-      - sed -i 's/127.0.0.53/127.0.0.1' /etc/resolv.conf
+      - sed -i 's/127.0.0.53/127.0.0.1/' /etc/resolv.conf
       - cat /etc/resolv.conf
       - docker ps
       - docker build -t mainpage .
