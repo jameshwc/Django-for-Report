@@ -19,8 +19,6 @@ pipeline:
     detach: true
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
-    environment:
-      - DOCKER_HOST=tcp://docker:2375
     commands:
       - docker run -itd -p 8005:80 mainpage
 
@@ -31,8 +29,6 @@ pipeline:
     image: docker:18.09-dind
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
-    environment:
-      - DOCKER_HOST=tcp://docker:2375
     commands:
       - sleep 5
       - docker ps
