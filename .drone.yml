@@ -33,19 +33,9 @@ pipeline:
       - sleep 5
       - docker ps
 
-  # curl the container to test it is up and running.
-  # notice that we use `docker:8000` since the container
-  # is running in the docker service container.
   test:
     image: golang # because I know it has curl installed
     commands:
-      - curl -v http://docker:8005
+      - curl -v http://localhost:8005
 
-# services:
-#   docker:
-#     image: docker:18.09-dind
-#     privileged: true
-#     DOCKER_DRIVER: overlay2
-#     volumes:
-#       - /var/run/docker.sock:/var/run/docker.sock
     
