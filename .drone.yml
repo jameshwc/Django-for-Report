@@ -9,6 +9,7 @@ pipeline:
     commands:
       - sleep 5
       - docker ps
+      - sed -i 's/DEBUG = FALSE/DEBUG = TRUE/' Report/settings.py
       - docker build -t mainpage .
   
   # start the container using a detached (non-blocking)
@@ -20,7 +21,8 @@ pipeline:
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
     commands:
-      - docker run -itd -p 8005:80 mainpage
+      - docker rm -f mainpage || true
+      - docker run -itd -p 8005:80 --name mainpage mainpage
 
   # this container just runs a docker ps to verify
   # our container is running. Just for demo purposes,
@@ -32,10 +34,5 @@ pipeline:
     commands:
       - sleep 5
       - docker ps
-
-  test:
-    image: golang # because I know it has curl installed
-    commands:
-      - curl -v http://localhost:8005
 
     
