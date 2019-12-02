@@ -19,6 +19,9 @@ RUN add-apt-repository ppa:jonathonf/python-3.6 && apt-get install -y python3.6 
     unattended-upgrades \
     libcairo2-dev \
     wget \
+    libffi-dev \
+    libblas-dev \
+    libatlas-base-dev \
     git
 RUN wget https://bootstrap.pypa.io/get-pip.py
 RUN python3.6 get-pip.py
