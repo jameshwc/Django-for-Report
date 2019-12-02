@@ -18,7 +18,7 @@ pipeline:
     environment:
       - DOCKER_HOST=tcp://docker:2375
     commands:
-      - docker run -p 8000:8000 hello-world
+      - docker run -p 8005:8000 hello-world
 
   # this container just runs a docker ps to verify
   # our container is running. Just for demo purposes,
@@ -37,7 +37,7 @@ pipeline:
   test:
     image: golang # because I know it has curl installed
     commands:
-      - curl -v http://docker:8000
+      - curl -v http://docker:8005
 
 services:
   docker:
