@@ -13,6 +13,7 @@ RUN add-apt-repository ppa:jonathonf/python-3.6 && apt-get install -y python3.6 
     python3-distutils \
     libmysqlclient-dev \
     gcc \
+    build-essential \
     apache2 \ 
     libapache2-mod-wsgi-py3 \
     python-apt \
