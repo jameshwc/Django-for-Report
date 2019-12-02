@@ -2,6 +2,8 @@ pipeline:
 
   build:
     image: docker:18.09-dind
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
     environment:
       - DOCKER_HOST=tcp://docker:2375
     commands:
@@ -15,6 +17,8 @@ pipeline:
   run:
     image: docker:18.09-dind
     detach: true
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
     environment:
       - DOCKER_HOST=tcp://docker:2375
     commands:
