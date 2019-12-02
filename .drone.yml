@@ -7,7 +7,7 @@ pipeline:
     commands:
       - sleep 15
       - docker ps
-      - docker build -t hello-world .
+      - docker build -t mainpage .
   
   # start the container using a detached (non-blocking)
   # step. Bonus we can see our container logs in the
@@ -18,7 +18,7 @@ pipeline:
     environment:
       - DOCKER_HOST=tcp://docker:2375
     commands:
-      - docker run -itd -p 8005:80 hello-world
+      - docker run -itd -p 8005:80 mainpage
 
   # this container just runs a docker ps to verify
   # our container is running. Just for demo purposes,
