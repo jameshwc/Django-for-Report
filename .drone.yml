@@ -9,7 +9,7 @@ pipeline:
     commands:
       - sleep 5
       - docker ps
-      - sed -i 's/DEBUG = FALSE/DEBUG = TRUE/' Report/settings.py
+      - sed -i 's/DEBUG = False/DEBUG = True/' Report/settings.py
       - docker build -t mainpage .
   
   # start the container using a detached (non-blocking)
