@@ -8,6 +8,7 @@ pipeline:
       - DOCKER_HOST=tcp://docker:2375
     commands:
       - sleep 15
+      - cat /etc/resolv.conf
       - docker ps
       - docker build -t mainpage .
   
