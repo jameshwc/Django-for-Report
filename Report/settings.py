@@ -27,6 +27,7 @@ SECRET_KEY = 'n0upjp0^o0@@x*a2@kiiyg6sn7=m(^fd6asilbs^_z5vkn8uq5'
 DEBUG = False
 
 ALLOWED_HOSTS = [
+        '*',
         'jameshsu.westus2.cloudapp.azure.com',
         'linux1.csie.org',
         'linux5.csie.org',
