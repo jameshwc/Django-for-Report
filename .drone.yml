@@ -1,15 +1,13 @@
 pipeline:
 
   build:
-    image: docker:18.09
+    image: docker:18.09-dind
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
     environment:
       - DOCKER_HOST=tcp://docker:2375
     commands:
       - sleep 15
-      - echo "$(sed 's/127.0.0.11/127.0.0.1/g' /etc/resolv.conf)" > /etc/resolv.conf
-      - cat /etc/resolv.conf
       - docker ps
       - docker build -t mainpage .
   
@@ -47,11 +45,11 @@ pipeline:
     commands:
       - curl -v http://docker:8005
 
-services:
-  docker:
-    image: docker:18.09-dind
-    privileged: true
-    DOCKER_DRIVER: overlay2
-    volumes:
-      - /var/run/docker.sock:/var/run/docker.sock
+# services:
+#   docker:
+#     image: docker:18.09-dind
+#     privileged: true
+#     DOCKER_DRIVER: overlay2
+#     volumes:
+#       - /var/run/docker.sock:/var/run/docker.sock
     
