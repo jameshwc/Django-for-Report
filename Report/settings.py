@@ -34,7 +34,8 @@ ALLOWED_HOSTS = [
         '172.14.8.8',
         'jameshsu.csie.org',
         'test-cd.jameshsu.csie.org',
-        'localhost'
+        'localhost',
+        'cathay2-james.csie.org:8005'
         ]
 
 MEDIA_ROOT = os.path.realpath(os.path.join(BASE_DIR, 'media'))
