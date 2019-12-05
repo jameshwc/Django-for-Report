@@ -85,7 +85,7 @@ systemd-python==234
 thefuck==3.28
 toml==0.10.0
 tox==3.5.3
-Twisted==17.9.0
+Twisted==19.7.0
 ufw==0.35
 unattended-upgrades==0.1
 unicorn==1.0.1
