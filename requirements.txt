@@ -71,7 +71,7 @@ python-debian==0.1.32
 python-magic==0.4.16
 pytz==2019.1
 pyxdg==0.25
-PyYAML==3.12
+PyYAML==5.1
 requests==2.20.1
 requests-unixsocket==0.1.5
 ROPGadget==5.4
