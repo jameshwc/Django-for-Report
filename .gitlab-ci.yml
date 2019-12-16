@@ -31,6 +31,7 @@ deploy-build:
   variables:
     GIT_STRATEGY: fetch
   script:
+    - sed -i 's/DEBUG = True/DEBUG = False/' Report/settings.py
     - docker build -t mainpage .
 
 deploy:
