@@ -17,14 +17,14 @@ test:
     - pip3 install pymysql
     - python3 manage.py test
 
-debug:
-  stage: test
-  script:
-    - docker exec mainpage git pull
-update-static:
-  stage: deploy
-  script:
-    - docker exec mainpage bash git pull
+# debug:
+#   stage: test
+#   script:
+#     - docker exec mainpage git pull
+# update-static:
+#   stage: deploy
+#   script:
+#     - docker exec mainpage bash git pull
     
 deploy-build:
   stage: deploy
