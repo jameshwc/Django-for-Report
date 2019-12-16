@@ -20,26 +20,52 @@
         <input type="text" name="query" maxlength="50" id="id_query1">
         <input type="submit" value='送出' id="query_submit">
     </form>
-    <div class="show_students"></div>
+    {% if has %}
+    <p>共有 {{rows}} 筆資料符合查詢結果！</p><br>
+        {% if toomuch %}
+        <p>你查詢的條件太廣泛了，請體諒這網站是用流量算錢的QQ</p>
+        {% else %}
+<table class="students">
+    <tr>
+        <th> 中文名字 </th>
+        <th> 學號 </th>
+        <th> 科系 </th>
+        <th> 性別 </th>
+    </tr>
+            {% for student in student_list %}
+    <tr>
+        <td> {{student.chinese_name}} </td>
+        <td> {{student.student_no}} </td>
+        <td> {{student.department}} </td>
+        <td> {{student.gender}} </td>
+    </tr>
+            {% endfor %}
+</table>
+        {% endif %}
+    {% elif query %}
+<p> 台大沒有這個人QQ </p>
+    {% endif %}
+
+    <!-- <div class="show_students"></div> -->
     <script>
-        $(document).ready(function(){
-            $('#query_form').submit(function(e){
-                e.preventDefault();
-                var query_data = $(this).serialize();
-                $.getJSON('../api/get/students', query_data, process_students);
-                function process_students(data){
-                    var show_student = $('.show_students');
-                    var tb = "<table>";
-                    tb +='<th> 中文名字 </th><th> 學號 </th><th> 科系 </th><th> 性別 </th></tr>';
-                    var items = data.items.map(function (item) {
-                        return item.key + ': ' + item.value;
-                    });
-                    show_student.empty()
-                    if (items.length){
-                        var content = '<td>' + items.join('</td><td>') +'</td>'
-                        var list = $('<tr />').html(content);
-                        show_student.append(list);
-                    }
+        // $(document).ready(function(){
+            // $('#query_form').submit(function(e){
+            //     e.preventDefault();
+            //     var query_data = $(this).serialize();
+            //     $.getJSON('../api/get/students', query_data, process_students);
+            //     function process_students(data){
+            //         var show_student = $('.show_students');
+            //         var tb = "<table>";
+            //         tb +='<th> 中文名字 </th><th> 學號 </th><th> 科系 </th><th> 性別 </th></tr>';
+            //         var items = data.items.map(function (item) {
+            //             return item.key + ': ' + item.value;
+            //         });
+            //         show_student.empty()
+            //         if (items.length){
+            //             var content = '<td>' + items.join('</td><td>') +'</td>'
+            //             var list = $('<tr />').html(content);
+            //             show_student.append(list);
+            //         }
                     // $.each(data, function(student, student_info){
                     //     tb += '<tr><td>' + student_info.chinese_name + '</td>';
                     //     tb += '<td>' + student_info.student_no + '</td>';
@@ -48,9 +74,9 @@
                     //     tb += '</tr>';
                     // })
                     // $('.students').html(tb);
-                }
-            })
-        })
+        //         }
+        //     })
+        // })
     </script>
 {% endif %}
 
