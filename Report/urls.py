@@ -24,13 +24,13 @@ from System.views import Update_log, External_link
 from User.views import Register, Verify, Login, Logout, Renew_Password
 from django.views.static import serve
 from No2Name.views import No2Name
-from Report.models import admin_site
+# from Report.models import admin_site
 
 
 urlpatterns = [
     path('home/',home),
     path('download/',download,None,'Download_url_name'),
-    path('admin/', admin_site.urls),
+    path('admin/', admin.site.urls),
     path('',home,None,'Home_url_name'),
     path('log/',Update_log,None,'Update_log_url_name'),
     path('register/', Register, None,'Register_url_name'),

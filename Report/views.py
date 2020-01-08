@@ -24,14 +24,6 @@ def login_by_ip(view_func):
         raise Http404
     return authorize
 
-class MyModelAdmin(admin.ModelAdmin):
-    def get_urls(self):
-        urls = super().get_urls()
-        my_urls = [
-            path('my_view/', self.admin_site.admin_view(self.my_view))
-        ]
-        return my_urls + urls
-
 
 def IP_log(request,url=None):
     x_forwarded_for = request.META.get('HTTP_X_FORWARDED_FOR')
