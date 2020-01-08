@@ -7,6 +7,7 @@ from django.template import RequestContext
 from django.http import Http404
 from System.models import ip_log
 from User.models import User
+from django.contrib import admin
 
 
 ALLOWED_IP_BLOCKS = ['127.0.0.1', '10.8.0.2', '52.229.61.229']
@@ -19,19 +20,17 @@ def login_by_ip(view_func):
         else:
             ip = request.META.get('REMOTE_ADDR')
         if ip in ALLOWED_IP_BLOCKS:
-            return view_func(request, *args, **kwargs)
+            return view_func(request, args, kwargs)
         raise Http404
     return authorize
 
-def login_by_no(view_func):
-    def authorize(request, *args, **kwargs):
-        IP_log(request)
-        if 'username' in request.session:
-            user = User.objects.get(id=request.session['uid'])
-            if user.student_id.lower() == "b07902001":
-                return view_func(request, *args, **kwargs)
-        raise Http404
-    return authorize
+class MyModelAdmin(admin.ModelAdmin):
+    def get_urls(self):
+        urls = super().get_urls()
+        my_urls = [
+            path('my_view/', self.admin_site.admin_view(self.my_view))
+        ]
+        return my_urls + urls
 
 
 def IP_log(request,url=None):

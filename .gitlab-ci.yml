@@ -25,6 +25,7 @@ test:
 #   stage: deploy
 #   script:
 #     - docker exec mainpage bash git pull
+
     
 deploy-build:
   stage: deploy
