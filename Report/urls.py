@@ -24,6 +24,7 @@ from System.views import Update_log, External_link
 from User.views import Register, Verify, Login, Logout, Renew_Password
 from django.views.static import serve
 from No2Name.views import No2Name
+from Report.views import admin_site
 
 
 urlpatterns = [
