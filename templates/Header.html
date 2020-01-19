@@ -22,6 +22,7 @@
         {% url 'Login_url_name' as login %}
         {% url 'Logout_url_name' as logout %}
         {% url 'Blog_url_name' as blog %}
+        {% url 'Tech_Blog_url_name' as tech_blog %}
         {% url 'Cool_url_name' as cool %}
         {% url 'No2Name_url_name' as no2name %}
         <div id="main" class="container">
@@ -32,7 +33,8 @@
                    <li>{% block nav-download %} <a href={{ download }} >Download</a>{% endblock %}</li>
 		            <li>{% block nav-log %} <a href= {{ updatelog }}>Log</a>{% endblock %}</li>
                     <li>{% block nav-no2name %} <a href = {{ no2name }}>No2Name</a>{% endblock %}</li>
-                    <li><a href = {{ blog }} target="_blank" onclick="javascript:alert('還非常原始的Blog，麻煩不要抱什麼期待XD\n暑假會慢慢寫新文和把一些舊文丟上來');">Blog </a></li>
+                    <li><a href = {{ blog }} target="_blank">Blog </a></li>
+                    <li><a href = {{ tech_blog }} target="_blank">Tech-blog</a></li>
                     <li><a href = {{ cool }} target="_blank">Cool</a></li>
 		    <li><a href="telnet://bbs.jameshsu.csie.org">ptt10</a></li>
                    {% if request.session.username %}
