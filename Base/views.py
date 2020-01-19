@@ -16,3 +16,7 @@ def blog(request):
 def cool(request):
     IP_log(request)
     return HttpResponsePermanentRedirect("https://cool.jameshsu.csie.org")
+
+def tech_blog(request):
+    IP_log(request)
+    return HttpResponsePermanentRedirect("https://tech-blog.jameshsu.csie.org")
